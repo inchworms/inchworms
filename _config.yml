@@ -1,2 +1,6 @@
 safe: true
 permalink: /:title
+
+name: inchworms
+description: Summer of Coding, one inch at a time...
+url: http://inchworms.net
