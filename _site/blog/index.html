@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/feed.xml">
     <link rel="shortcut icon" href="/favicon1.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
@@ -29,7 +29,49 @@
 
         
         <section id="main_content">
-            {{ content }}
+            <!-- This loops through the paginated posts -->
+
+  <h1><a href="/blog/2013-06-19-test-post2">A Test Post</a></h1>
+  <p class="author">
+    <span class="date">2013-06-19 00:00:00 +0200</span>
+  </p>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum orci a consectetur laoreet. Vestibulum faucibus placerat ipsum interdum adipiscing. Ut libero magna, tempor non ante non, elementum vulputate est. Nunc dignissim, eros sed tincidunt tempus, tortor mi ultricies est, nec tempus nisl nisi et purus. Suspendisse id pulvinar dolor, quis vulputate magna. Suspendisse a nunc nec tellus scelerisque facilisis. Nulla in purus tincidunt, hendrerit dui ut, volutpat enim. Quisque faucibus augue et elit eleifend viverra. Sed tortor mi, auctor pretium fringilla vel, consectetur in enim. Nullam nunc massa, pellentesque nec tellus at, pellentesque condimentum turpis. Nulla purus leo, ultricies sed ligula ut, aliquam semper turpis.</p>
+  </div>
+
+  <h1><a href="/blog/2013-06-18-hello-world">Hello, Summer of Code!</a></h1>
+  <p class="author">
+    <span class="date">2013-06-18 00:00:00 +0200</span>
+  </p>
+  <div class="content">
+    <pre><code>puts &quot;Hello, Summer of Code!&quot;</code></pre>
+
+<p>Greetings world from <a href='https://twitter.com/_tyranja_'>@tyranja</a> and <a href='https://twitter.com/CarlaD'>@CarlaD</a>.</p>
+
+<p>Accompanied by our ninja coaches <a href='https://twitter.com/fidothe'>@fidothe</a> &amp; <a href='https://twitter.com/ur5'>@ur5</a>, and jedi mentors <a href='https://twitter.com/stefanwehrmeyer'>@stefanwehrmeyer</a> &amp; <a href='https://twitter.com/konstantinhaase'>@konstantinhaase</a>, we&#8217;ll be posting updates here about progress on our <a href='http://railsgirlssummerofcode.org/'>Rails Girls Summer of Code</a> projects - Sinatra and farmsubsidys.org.</p>
+
+<p>We&#8217;re anticipating a heady summer of coding, committing, and cricket (well, <a href='https://twitter.com/CarlaD'>@CarlaD</a> &amp; <a href='https://twitter.com/fidothe'>@fidothe</a> will be fighting over something called <a href='http://en.wikipedia.org/wiki/The_Ashes'>The Ashes</a> which we understand to be a tiny old ceramic urn of stump ashes&#8230; go figure&#8230;)</p>
+
+<p>So, welcome to our blog! We&#8217;re super glad to have you along for the ride and can&#8217;t wait to get started.</p>
+
+<p>If you want to subscribe via RSS, please grab the <a href='/feed.xml'>blog feed</a>.</p>
+
+<p>Otherwise see you soon!</p>
+  </div>
+
+
+<br><br><br>
+<!-- Pagination links -->
+<div class="pagination">
+  
+    <span class="previous">Previous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  
+  <span class="page_number ">Page: 1 of 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  
+    <a href="/blog/page2" class="next">Next</a>
+  
+</div>
+
         </section>
 
         <footer>
