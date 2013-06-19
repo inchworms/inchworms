@@ -1,6 +1,6 @@
 inchworms
 =========
 
-Our Webseite is: blog.inchworms.net
+Our Webseite is: inchworms.net
 
 :)
