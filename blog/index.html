@@ -3,6 +3,7 @@ layout: default
 title: inchworms Summer of Code blog
 ---
 
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -14,7 +15,8 @@ title: inchworms Summer of Code blog
         {% endif %}
     <span class="date">{{ post.created_at | date: "%B %-d, %Y" }}</span>
     <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ post.title }}" data-via="inchworms_" data-hashtags="rgsoc">Tweet</a></span>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </p>
   <div class="content">
     {{ post.content }}
