@@ -13,12 +13,12 @@ If you're a collaborator you can leave a post by creating a markdown (.md) file 
 
 Make sure you include the following at the top of the page:
 
----
+<!-- ---
 title: [name of post]
 layout: post
 created_at: [DDD mmm dd yyyy] (eg: Sat Jun 15 2013)
 permalink: /blog/[yyyy-mm-dd-name-of-post]
 author: [Your name]
 twitter: [your twitter handle]
----
+--- -->
 

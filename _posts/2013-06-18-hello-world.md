@@ -22,6 +22,9 @@ If you want to subscribe via RSS, please grab the [blog feed](/feed.xml).
 Otherwise see you soon!
 
 
+ps: We built this blog using [Github Pages](http://pages.github.com), which uses something called [jekyll](http://jekyllrb.com/). Take a peek at the [repository](https://github.com/carlad/inchworms) if you like :-)
+
+
 
 
 

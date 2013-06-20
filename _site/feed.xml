@@ -28,7 +28,9 @@
 
 &lt;p&gt;If you want to subscribe via RSS, please grab the &lt;a href='/feed.xml'&gt;blog feed&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Otherwise see you soon!&lt;/p&gt;</description>
+&lt;p&gt;Otherwise see you soon!&lt;/p&gt;
+
+&lt;p&gt;ps: We built this blog using &lt;a href='http://pages.github.com'&gt;Github Pages&lt;/a&gt;, which uses something called &lt;a href='http://jekyllrb.com/'&gt;jekyll&lt;/a&gt;. Take a peek at the &lt;a href='https://github.com/carlad/inchworms'&gt;repository&lt;/a&gt; if you like :-)&lt;/p&gt;</description>
 				<pubDate>Tue, 18 Jun 2013 00:00:00 +0200</pubDate>
 				<link>http://inchworms.net/blog/2013-06-18-hello-world</link>
 				<guid isPermaLink="true">http://inchworms.net/blog/2013-06-18-hello-world</guid>
