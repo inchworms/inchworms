@@ -6,7 +6,12 @@ title: inchworms Summer of Code blog
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
+  <p class="meta">
+      {% if post.twitter %}
+          <a href='http://twitter.com/{{ post.twitter }}'>{{ post.author }}</a>,
+        {% else %}
+          {{ post.author }},
+        {% endif %}
     <span class="date">{{ post.created_at | date: "%B %-d, %Y" }}</span>
   </p>
   <div class="content">
