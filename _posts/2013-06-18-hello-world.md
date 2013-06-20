@@ -4,6 +4,7 @@ layout: post
 created_at: Tue Jun 18 2013
 permalink: /blog/2013-06-18-hello-world
 author: inchworms
+twitter: inchworms_
 ---
 
     puts "Hello, Summer of Code!"
