@@ -12,7 +12,7 @@ layout: default
         {% else %}
           {{ page.author }},
         {% endif %}
-        <time datetime="{{ page.created_at | date: "%Y-%m-%dT%H:%M:%S%z"  }}">{{ page.created_at | date: "%B %-d, %Y" }}</time>
+        <time datetime="{{ page.created_at | date: "%d-%m-%Y"  }}">{{ page.created_at | date: "%B %-d, %Y" }}</time>
       </p>
       {{ content }}
     </article>
