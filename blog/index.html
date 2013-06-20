@@ -22,22 +22,26 @@ title: inchworms Summer of Code blog
 <br><br><br>
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
+  {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
 
-    {% if paginator.previous_page == 1 %}
-        <a href="/blog" class="previous">Previous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      {% else %}
-        <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      {% endif %}
-  {% else %}
-    <span class="previous">Previous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-  {% endif %}
-  
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      {% if paginator.previous_page == 1 %}
+          <a href="/blog" class="previous " style="padding-left:5px">Previous</a>
+        {% else %}
+          <a href="/blog/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Previous</a>
+        {% endif %}
+    {% else %}
+      <span class="previous" style="padding-left:5px">Previous</span>
+    {% endif %}
+    
+    <span class="page_number " style="padding-left:30%; font-weight:normal; font-size:12px;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
-  {% if paginator.next_page %}
-    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
+     
+    {% if paginator.next_page %}
+      <a href="/blog/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Next</a>
+    {% else %}
+      <span class="next " style="float:right; padding-right:30px;">Next</span>
+    {% endif %}
   {% else %}
-    <span class="next ">Next</span>
   {% endif %}
 </div>
