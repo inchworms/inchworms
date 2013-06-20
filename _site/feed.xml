@@ -7,14 +7,6 @@
 		<atom:link href="http://inchworms.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>A Test Post</title>
-				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum orci a consectetur laoreet. Vestibulum faucibus placerat ipsum interdum adipiscing. Ut libero magna, tempor non ante non, elementum vulputate est. Nunc dignissim, eros sed tincidunt tempus, tortor mi ultricies est, nec tempus nisl nisi et purus. Suspendisse id pulvinar dolor, quis vulputate magna. Suspendisse a nunc nec tellus scelerisque facilisis. Nulla in purus tincidunt, hendrerit dui ut, volutpat enim. Quisque faucibus augue et elit eleifend viverra. Sed tortor mi, auctor pretium fringilla vel, consectetur in enim. Nullam nunc massa, pellentesque nec tellus at, pellentesque condimentum turpis. Nulla purus leo, ultricies sed ligula ut, aliquam semper turpis.&lt;/p&gt;</description>
-				<pubDate>Wed, 19 Jun 2013 00:00:00 +0200</pubDate>
-				<link>http://inchworms.net/blog/2013-06-19-test-post2</link>
-				<guid isPermaLink="true">http://inchworms.net/blog/2013-06-19-test-post2</guid>
-			</item>
-		
-			<item>
 				<title>Hello, Summer of Code!</title>
 				<description>&lt;pre&gt;&lt;code&gt;puts &amp;quot;Hello, Summer of Code!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
@@ -30,7 +22,7 @@
 
 &lt;p&gt;Otherwise see you soon!&lt;/p&gt;
 
-&lt;p&gt;ps: We built this blog using &lt;a href='http://pages.github.com'&gt;Github Pages&lt;/a&gt;, which uses something called &lt;a href='http://jekyllrb.com/'&gt;jekyll&lt;/a&gt;. Take a peek at the &lt;a href='https://github.com/carlad/inchworms'&gt;repository&lt;/a&gt; if you like :-)&lt;/p&gt;</description>
+&lt;p&gt;ps: We built this blog using &lt;a href='http://pages.github.com'&gt;Github Pages&lt;/a&gt;, which uses something called &lt;a href='http://jekyllrb.com/'&gt;jekyll&lt;/a&gt;. Take a peek at the &lt;a href='https://github.com/carlad/inchworms/tree/gh-pages'&gt;repository&lt;/a&gt; if you like :-)&lt;/p&gt;</description>
 				<pubDate>Tue, 18 Jun 2013 00:00:00 +0200</pubDate>
 				<link>http://inchworms.net/blog/2013-06-18-hello-world</link>
 				<guid isPermaLink="true">http://inchworms.net/blog/2013-06-18-hello-world</guid>
