@@ -17,7 +17,7 @@ We're anticipating a heady summer of coding, committing, and cricket (well, [@Ca
 
 So, welcome to our blog! We're super glad to have you along for the ride and can't wait to get started.
 
-If you want to subscribe via RSS, please grab the [blog feed](/feed.xml).
+If you want to subscribe via RSS, please grab the [blog feed](/blog/feed.xml).
 
 Otherwise see you soon!
 
