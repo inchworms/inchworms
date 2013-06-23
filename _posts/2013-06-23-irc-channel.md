@@ -5,6 +5,7 @@ created_at: Sun Jun 23 2013
 permalink: /blog/2013-06-23-irc-channel
 author: inchworms
 twitter: inchworms_
+
 ---
 
     #inchworms on irc.freenode.net
