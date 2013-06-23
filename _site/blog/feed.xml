@@ -7,14 +7,28 @@
 		<atom:link href="http://inchworms.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>IRCing</title>
+				<description>&lt;pre&gt;&lt;code&gt;#inchworms on irc.freenode.net&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We set up an IRC channel for any IM communication we need to do. Our GitHub repos are now configured with service hooks that will send notifications of any commits to the channel.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.geekshed.net/commands/chanserv/'&gt;This page&lt;/a&gt; was helpful in working out how to set up and register the channel.&lt;/p&gt;
+
+&lt;p&gt;We promise we&amp;#8217;ll try not to use it to talk to each other when we&amp;#8217;re all sitting in the same room&amp;#8230;&lt;/p&gt;</description>
+				<pubDate>Sun, 23 Jun 2013 00:00:00 +0200</pubDate>
+				<link>http://inchworms.net/blog/2013-06-23-irc-channel</link>
+				<guid isPermaLink="true">http://inchworms.net/blog/2013-06-23-irc-channel</guid>
+			</item>
+		
+			<item>
 				<title>Hello, Summer of Code!</title>
 				<description>&lt;pre&gt;&lt;code&gt;puts &amp;quot;Hello, Summer of Code!&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Greetings world from &lt;a href='https://twitter.com/_tyranja_'&gt;@tyranja&lt;/a&gt; and &lt;a href='https://twitter.com/CarlaD'&gt;@CarlaD&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Greetings world from &lt;a href='https://twitter.com/_tyranja_'&gt;@tyranja&lt;/a&gt; and &lt;a href='https://twitter.com/CarlaD'&gt;@carlad&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Accompanied by our ninja coaches &lt;a href='https://twitter.com/fidothe'&gt;@fidothe&lt;/a&gt; &amp;amp; &lt;a href='https://twitter.com/ur5'&gt;@ur5&lt;/a&gt;, and jedi mentors &lt;a href='https://twitter.com/stefanwehrmeyer'&gt;@stefanwehrmeyer&lt;/a&gt; &amp;amp; &lt;a href='https://twitter.com/konstantinhaase'&gt;@konstantinhaase&lt;/a&gt;, we&amp;#8217;ll be posting updates here about progress on our &lt;a href='http://railsgirlssummerofcode.org/'&gt;Rails Girls Summer of Code&lt;/a&gt; projects - Sinatra and farmsubsidys.org.&lt;/p&gt;
 
-&lt;p&gt;We&amp;#8217;re anticipating a heady summer of coding, committing, and cricket (well, &lt;a href='https://twitter.com/CarlaD'&gt;@CarlaD&lt;/a&gt; &amp;amp; &lt;a href='https://twitter.com/fidothe'&gt;@fidothe&lt;/a&gt; will be fighting over something called &lt;a href='http://en.wikipedia.org/wiki/The_Ashes'&gt;The Ashes&lt;/a&gt; which we understand to be a tiny old ceramic urn of stump ashes&amp;#8230; go figure&amp;#8230;)&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re anticipating a heady summer of coding, committing, and cricket (well, &lt;a href='https://twitter.com/CarlaD'&gt;@carlad&lt;/a&gt; &amp;amp; &lt;a href='https://twitter.com/fidothe'&gt;@fidothe&lt;/a&gt; will be fighting over something called &lt;a href='http://en.wikipedia.org/wiki/The_Ashes'&gt;The Ashes&lt;/a&gt; which we understand to be a tiny old ceramic urn of stump ashes&amp;#8230; go figure&amp;#8230;)&lt;/p&gt;
 
 &lt;p&gt;So, welcome to our blog! We&amp;#8217;re super glad to have you along for the ride and can&amp;#8217;t wait to get started.&lt;/p&gt;
 
