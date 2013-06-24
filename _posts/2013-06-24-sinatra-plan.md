@@ -18,3 +18,5 @@ We'll then spend the next two weeks re-writing our sample application using test
 We'll then spend the remainder of our time writing some tests in rspec to test the Sinatra framework itself, focusing primarily on the behaviour we used in our sample app - routes, templates, and error handling (our template tests will cover high level template behaviour only).
 
 We'll work on our [own fork](https://github.com/inchworms/sinatra) of the Sinatra repository.
+
+Bis montag...
