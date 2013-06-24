@@ -9,7 +9,7 @@ twitter: inchworms_
 
 Tonight we met with coach [@fidothe](https://twitter.com/fidothe) and mentor [@konstantinhaase](https://twitter.com/konstantinhaase) to devise a plan for what we would work on for the [Sinatra](http://www.sinatrarb.com/) leg of our program.
 
-Our first task will be to familiarise ourselves with Sinatra, referring in the first instance to the comprehensive [Readme](https://github.com/inchworms/sinatra/blob/master/README.md) documentation.
+Our first task will be to familiarise ourselves with Sinatra, referring in the first instance to the comprehensive [Readme](http://www.sinatrarb.com/intro.html) documentation.
 
 We'll then spend the first week/week-and-a-half building a sample application that covers how routes, templates, and error handling work. We'll make a screencast that can be used as a guide for others wanting to learn Sinatra basics.
 
@@ -19,4 +19,4 @@ We'll then spend the remainder of our time writing some tests in rspec to test t
 
 We'll work on our [own fork](https://github.com/inchworms/sinatra) of the Sinatra repository.
 
-Bis Montag....
+Bis Montag...
