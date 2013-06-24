@@ -1,7 +1,7 @@
 ---
 title: Our Sinatra Plan
 layout: post
-created_at: Mon Jun 23 2013
+created_at: Mon Jun 24 2013
 permalink: /blog/2013-06-24-sinatra-plan
 author: inchworms
 twitter: inchworms_
