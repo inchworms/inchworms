@@ -15,7 +15,7 @@ We'll then spend the first week/week-and-a-half building a sample application th
 
 We'll then spend the next two weeks re-writing our sample application using test driven development, and produce a screencast that demonstrates how to test a Sinatra application.
 
-We'll then spend the remainder of our time on Sinatra writing tests in rspec to test the Sinatra framework itself, focusing primarily on the behaviour we used in our sample app - routes, templates, and error handling (our template tests will cover high level template behaviour only).
+Finally we'll use the remainder of our time on Sinatra writing tests in rspec to test the Sinatra framework itself, focusing primarily on the behaviour we used in our sample app - routes, templates, and error handling (our template tests will cover high level template behaviour only).
 
 We'll work on our [own fork](https://github.com/inchworms/sinatra) of the Sinatra repository.
 
