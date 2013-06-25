@@ -5,6 +5,6 @@ name: inchworms
 description: Summer of Coding, one inch at a time...
 url: http://inchworms.net
 
-paginate: true
+
 paginate: 8
 paginate_path: "/blog/page:num"

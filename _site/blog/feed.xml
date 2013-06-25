@@ -10,15 +10,17 @@
 				<title>Our Sinatra Plan</title>
 				<description>&lt;p&gt;Tonight we met with coach &lt;a href='https://twitter.com/fidothe'&gt;@fidothe&lt;/a&gt; and mentor &lt;a href='https://twitter.com/konstantinhaase'&gt;@konstantinhaase&lt;/a&gt; to devise a plan for what we would work on for the &lt;a href='http://www.sinatrarb.com/'&gt;Sinatra&lt;/a&gt; leg of our program.&lt;/p&gt;
 
-&lt;p&gt;Our first task will be to familiarise ourselves with Sinatra, referring in the first instance to the comprehensive &lt;a href='https://github.com/inchworms/sinatra/blob/master/README.md'&gt;Readme&lt;/a&gt; documentation.&lt;/p&gt;
+&lt;p&gt;Our first task will be to familiarise ourselves with Sinatra, referring in the first instance to the comprehensive &lt;a href='http://www.sinatrarb.com/intro.html'&gt;Readme&lt;/a&gt; documentation.&lt;/p&gt;
 
 &lt;p&gt;We&amp;#8217;ll then spend the first week/week-and-a-half building a sample application that covers how routes, templates, and error handling work. We&amp;#8217;ll make a screencast that can be used as a guide for others wanting to learn Sinatra basics.&lt;/p&gt;
 
 &lt;p&gt;We&amp;#8217;ll then spend the next two weeks re-writing our sample application using test driven development, and produce a screencast that demonstrates how to test a Sinatra application.&lt;/p&gt;
 
-&lt;p&gt;We&amp;#8217;ll then spend the remainder of our time writing some tests in rspec to test the Sinatra framework itself, focusing primarily on the behaviour we used in our sample app - routes, templates, and error handling (our template tests will cover high level template behaviour only).&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ll then spend the remainder of our time on Sinatra writing tests in rspec to test the Sinatra framework itself, focusing primarily on the behaviour we used in our sample app - routes, templates, and error handling (our template tests will cover high level template behaviour only).&lt;/p&gt;
 
-&lt;p&gt;We&amp;#8217;ll work on our &lt;a href='https://github.com/inchworms/sinatra'&gt;own fork&lt;/a&gt; of the Sinatra repository.&lt;/p&gt;</description>
+&lt;p&gt;We&amp;#8217;ll work on our &lt;a href='https://github.com/inchworms/sinatra'&gt;own fork&lt;/a&gt; of the Sinatra repository.&lt;/p&gt;
+
+&lt;p&gt;Bis Montag&amp;#8230;&lt;/p&gt;</description>
 				<pubDate>Mon, 24 Jun 2013 00:00:00 +0200</pubDate>
 				<link>http://inchworms.net/blog/2013-06-24-sinatra-plan</link>
 				<guid isPermaLink="true">http://inchworms.net/blog/2013-06-24-sinatra-plan</guid>
