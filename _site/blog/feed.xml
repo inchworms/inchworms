@@ -7,6 +7,19 @@
 		<atom:link href="http://inchworms.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>First Day of School...</title>
+				<description>&lt;p&gt;... and we&amp;#39;re EXCITED!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dyrci3isikb50.cloudfront.net/files/163023/original/loop.gif&quot; alt=&quot;First day of #RGSoC&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Matt is about to tell us all about the Common Gateway Interface. &lt;/p&gt;
+</description>
+				<pubDate>Mon, 01 Jul 2013 00:00:00 +0200</pubDate>
+				<link>http://inchworms.net/blog/2013-07-01-first-day-of-school</link>
+				<guid isPermaLink="true">http://inchworms.net/blog/2013-07-01-first-day-of-school</guid>
+			</item>
+		
+			<item>
 				<title>Our Sinatra Plan</title>
 				<description>&lt;p&gt;Tonight we met with coach &lt;a href=&quot;https://twitter.com/fidothe&quot;&gt;@fidothe&lt;/a&gt; and mentor &lt;a href=&quot;https://twitter.com/konstantinhaase&quot;&gt;@konstantinhaase&lt;/a&gt; to devise a plan for what we would work on for the &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; leg of our program.&lt;/p&gt;
 
