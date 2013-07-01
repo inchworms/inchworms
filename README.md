@@ -13,3 +13,9 @@ If you're a collaborator you can leave a post by creating a markdown (.md) file 
 
 
 
+=======
+Our Webseite is: inchworms.net
+
+Our blog is at inchworms.net/blog
+
+:)
