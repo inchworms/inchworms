@@ -22,7 +22,7 @@ Our next task was to sketch up an outline of what the structure of our tutorial 
 
 		Part 1 - Basic Requests, Defining Variables, Using Sinatra Reloader
 		Part 2 - Views, Layouts, Partials, Folder Structure, Images, CSS
-		Part 3 - Using Static Data, Creating a Database, Adding/Editing/Deleting Content
+		Part 3 - Using Static Data, Creating a Database, Add/Edit/Delete Content
 		Part 4 - Error Handling
 
 Konstantin, meanwhile, refused, despite our insistence, to print the single-page literary epic that is Sinatra's base.rb. We wanted to stick it to the wall and draw flow-arrows between which parts of the file interacted with other parts of the file. Herr Haase, however, was dubious. 
