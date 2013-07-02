@@ -33,7 +33,7 @@ Were we deterred? No!
 
 We hopped onto the [Ezeep](http://ezeep.com) printing service, found a printer on Level 3 of the same building, and within miniutes had the 22 page document plastered to the wall. 
 
-Unsurprisingly it took less than another half minute for Konstantin to appear and admire his handiwork. Where he remained for the rest of the afternoon.
+Unsurprisingly it took less than another half minute for Konstantin to appear and admire his handiwork. There he remained for the rest of the afternoon.
 
 <iframe width="360" height="640" src="//www.youtube.com/embed/Sc15a4wZLfQ?rel=0" frameborder="0" allowfullscreen></iframe>
 <br>
