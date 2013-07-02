@@ -33,21 +33,21 @@ title: inchworms Summer of Code blog
     {% if paginator.previous_page %}
 
       {% if paginator.previous_page == 1 %}
-          <a href="/blog" class="previous " style="padding-left:5px">Previous</a>
+          <a href="/blog" class="previous " style="padding-left:5px">Recent Posts</a>
         {% else %}
-          <a href="/blog/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Previous</a>
+          <a href="/blog/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Recent Posts</a>
         {% endif %}
     {% else %}
-      <span class="previous" style="padding-left:5px">Previous</span>
+      <span class="previous" style="padding-left:5px">Recent Posts</span>
     {% endif %}
     
     <span class="page_number " style="padding-left:30%; font-weight:normal; font-size:12px;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
      
     {% if paginator.next_page %}
-      <a href="/blog/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Next</a>
+      <a href="/blog/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Earlier Posts</a>
     {% else %}
-      <span class="next " style="float:right; padding-right:30px;">Next</span>
+      <span class="next " style="float:right; padding-right:30px;">Earlier Posts</span>
     {% endif %}
   {% else %}
   {% endif %}
