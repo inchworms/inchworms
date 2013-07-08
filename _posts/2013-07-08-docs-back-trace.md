@@ -45,4 +45,4 @@ We wrote rough scripts for Parts 1 & 2, and created branches in github where peo
 
 ![script](/images/script.jpg)
 
-Tomorrow we'll start recording screencasts for these. 
+Tomorrow we'll start recording screencasts for these...
