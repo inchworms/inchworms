@@ -1,7 +1,7 @@
 ---
 title: The Docs, The Back Trace
 layout: post
-created_at: Fri Jul 05 2013 17:53
+created_at: Mon Jul 08 2013 17:53
 permalink: /blog/2013-07-08-docs-back-trace
 author: inchworms
 twitter: inchworms_
