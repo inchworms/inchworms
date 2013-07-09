@@ -18,7 +18,7 @@ Take 25 anyone?
 
 Luckily we were able to use Camtasia, an indespensible piece of screen-capturing goodness, and break into some [7 minute](http://www.7-min.com/) workouts while we waited for video to export.
 
-For now, Tutorial Part 1 is finished. It's somewhat rough and ready, the sound is a bit dodgy, and we used a version of Ruby we sholdn't have (1.8.something) but it's a start. You can download a copy of the finished files for the app [here](https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1). And fyi the best online video wesite for serving screencasts seems to be [Screencast.com](http://screencast.com/) which doesn't compress your videos in any way (unlike YouTube or Vimeo). This means that the image doesn't lose any detail, which is very important when your video is filled with pages of relatively small type/code.
+For now, Tutorial Part 1 is finished. It's somewhat rough and ready, the sound is a bit dodgy, and we used a version of Ruby we shouldn't have (1.8.something) but it's a start. You can download a copy of the finished files for the app [here](https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1). And fyi the best online video wesite for serving screencasts seems to be [Screencast.com](http://screencast.com/) which doesn't compress your videos in any way (unlike YouTube or Vimeo). This means that the image doesn't lose any detail, which is very important when your video is filled with pages of relatively small type/code.
 
 
 <object id="scPlayer"  width="650" height="365" type="application/x-shockwave-flash" data="http://content.screencast.com/users/inchworms/folders/Default/media/f163ae5f-d6a4-4a59-82be-7737ea9a9823/scplayer.swf" >
