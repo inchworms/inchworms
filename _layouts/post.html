@@ -8,11 +8,11 @@ layout: default
     <h1>{{ page.title }}</h1>
       <p class='meta'>
         {% if page.twitter %}
-          <a href='http://twitter.com/{{ page.twitter }}'>{{ page.author }}</a>,
+          <a href='http://twitter.com/{{ page.twitter }}'>{{ page.author }}</a> -
         {% else %}
-          {{ page.author }},
+          {{ page.author }} -
         {% endif %}
-        <time datetime="{{ page.created_at | date: "%d-%m-%Y"  }}">{{ page.created_at | date: "%B %-d, %Y" }}</time>
+        <time datetime="{{ page.created_at | date: "%a %-d %B, %Y"  }}">{{ page.created_at | date: "%a %-d %B, %Y" }}</time>
         <span style="float:right">
           <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
 <script>
