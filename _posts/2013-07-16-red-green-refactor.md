@@ -39,7 +39,7 @@ You can look at the code on [GitHub](https://github.com/inchworms/tutorial_comme
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F101281977&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
 
-We Then we started working on [Part 2](https://peepcode.com/products/rspec-ii) of the PeepCode tutorial, which we'll finish tomorrow.
+Then we started working on [Part 2](https://peepcode.com/products/rspec-ii) of the PeepCode tutorial, which we'll finish tomorrow.
 
 Oh yeah, we had a yummy lunch at [Co.Up](http:co-up.de) with Matt and Urs (and Nabil, Andy, and Hannah)...
 
