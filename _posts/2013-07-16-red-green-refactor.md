@@ -30,7 +30,7 @@ And also:
 - Using the **let** method to simplify setup
 - Using nested **describe** blocks
 - Organising application code
-- Debugging and fix errors in RSpec code
+- Debugging and fixing errors in RSpec code
 - Parsing extra fields
 - Working with unexpected Unicode input
 - Using trivial examples to catch errors and expose assumptions
