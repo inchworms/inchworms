@@ -1,5 +1,5 @@
 ---
-title: Get Requests
+title: Getting Get Requests
 layout: post
 created_at: Thu Jul 18 2013 14:30
 permalink: /blog/2013-07-18-get-requests
