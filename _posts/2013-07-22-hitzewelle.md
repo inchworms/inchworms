@@ -21,7 +21,7 @@ The coding was 15% more fun today thanks to glistening nail polish provided by [
 <iframe src="http://loopc.am/CarlaD/loops/15-more-fun.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
 <p></p>
 
-We needed more fun because while it may have been the heat, the long list of Sinatra routing tests started to intimidate us. Especially when we realised the list we wrote last week only included the 'get' portion of routing requests (not the 'post', 'put', 'delete', 'head', 'options', patch, 'link', 'unlink' requests). Eeek!
+We needed more fun because while it may have been the heat, the long list of Sinatra routing tests started to intimidate us. Especially when we realised the list we wrote last week only included the 'get' portion of routing requests (not the 'post', 'put', 'delete', 'head', 'options', 'patch', 'link', 'unlink' requests). Eeek!
 
 We found something Matt called a [rabbit hole](http://youtu.be/3ppsDNkBLGY?t=1m1s) (to do with disabling Rack protection) and had test results totally splatter our screens with red, as if an RSpec chainsaw had been unleashed.
 
