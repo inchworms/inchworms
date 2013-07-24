@@ -10,7 +10,7 @@ twitter: inchworms_
 
 Our routing_spec.rb document was getting rather long and confusing. Scrolling up and down it hurt our brains, not to mention had us inserting new tests into wrong contexts. 
 
-So we broke the file up into a bunch of seperate files based on contexts. Now our directory structure looks something like this:
+So we broke the file up into a bunch of separate files based on contexts. Now our directory structure looks something like this:
 
 ![spec directory structure](/images/directoryStructure.png)
 
