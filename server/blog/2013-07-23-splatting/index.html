@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="inchworms RGSoC">
+    <meta name="keywords" content="inchworms, rails girls, summer of code, open source, sinatra, farm subsidy">
+    <meta name="author" content="inchworms_">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/blog/feed.xml">
+    <link rel="shortcut icon" href="/faviconStatic.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>inch by inch</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="/blog" class="">
+          <img src="http://25.media.tumblr.com/aab70fec3abd0a9a6b9f1803621aabc0/tumblr_mn2s5hgPpX1qlpk58o1_400.gif" alt="inchworm" height="84" width="100" style="position:relative; top:5px; float:right;">   
+          <h1>inchworms</h1></a>
+          <h2>Summer of Coding, one inch at a time...</h2>
+              
+        </header>
+   
+        <section id="main_content">
+                <article class="main_content">
+    <h1>Splatting and Slurping</h1>
+      <p class='meta'>
+        
+          <a href='http://twitter.com/inchworms_'>inchworms</a> -
+        
+        <time datetime="Tue 23 July, 2013">Tue 23 July, 2013</time>
+        <span style="float:right">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Splatting and Slurping" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+      </p>
+      <p>As <a href="http://technet.microsoft.com/en-us/magazine/gg675931.aspx">Don Jones</a> points out, where else but the IT industry would one use a word like &quot;splatting&quot; in a serious, professional context? Or &quot;slurping&quot; for that matter. <a href="http://stackoverflow.com/users/196561/osgx">osgx</a> explains it like this:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    In Ruby... [a] parameter of a method may be preceded 
+    by an asterisk(*), which is sometimes called the &#39;splat&#39; 
+    operator. This indicates that more parameters may be passed 
+    to the function. Those parameters are collected up and an 
+    array is created.
+
+    The asterisk operator may also precede an Array argument in 
+    a method call. In this case the Array will be expanded and 
+    the values passed in as if they were separated by commas.
+</code></pre></div>
+<p>Here&#39;s an example of what splatting can do:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    def drink(slurp, *flavour)
+      flavour.each { |f| puts &quot;#{f}: #{slurp}&quot; }
+    end
+
+    drink(&quot;Slurping!&quot;, &quot;Chocolate&quot;, &quot;Vanilla&quot;, &quot;Strawberry&quot;)
+</code></pre></div>
+<p>Will return:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    Chocolate: Slurping!
+    Vanilla: Slurping!
+    Strawberry: Slurping!
+</code></pre></div>
+<p>(See <a href="http://www.jacopretorius.net/2012/01/splat-operator-in-ruby.html">Jaco Pretorius</a> for more examples)</p>
+
+<p>The most common usage of the splat operator is, according to Jaco, slurping up all remaining arguments. But we were splatting Sinatra routes (or at least testing Sinatra&#39;s ability to support splat params). Mmmmm. Juicy.</p>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102248467&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
+
+<p></p>
+
+<p>In any case, we&#39;re churning through our tests and learning way more about routes, and what web frameworks need to accomodate in URLs, than we ever anticipated. Konstantin made a nice <a href="https://github.com/inchworms/sinatra_tests/issues/3">checklist</a> for us. We are happily ticking off the boxes :-)</p>
+
+      <p><img src="../../images/hr.png" style="50% 0 no-repeat"></p>
+    </article>
+
+
+        </section>
+
+        <footer>
+          inchworms is maintained by <a href="https://github.com/carlad">carlad</a> & <a href="https://github.com/tyranja">tyranja</a> as part of their <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a> team project.<br>
+          An <a href="http://inchworms.net/blog/feed.xml">RSS feed</a> is available. You can also follow inchworms on <a href="https://twitter.com/inchworms_">twitter</a>.<br> 
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41825288-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+          <!-- Start of StatCounter Code for Default Guide -->
+              <script type="text/javascript">
+                var sc_project=9035219; 
+                var sc_invisible=1; 
+                var sc_security="4db3485e"; 
+                var scJsHost = (("https:" == document.location.protocol) ?
+                "https://secure." : "http://www.");
+                document.write("<sc"+"ript type='text/javascript' src='" +
+                scJsHost+
+                "statcounter.com/counter/counter.js'></"+"script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter"
+                  href="http://statcounter.com/free-hit-counter/"
+                  target="_blank"><img class="statcounter"
+                  src="http://c.statcounter.com/9035219/0/4db3485e/1/"
+                  alt="web counter"></a></div>
+            </noscript>
+              <!-- End of StatCounter Code for Default Guide -->
+
+      </div>
+    </div>
+  </body>
+</html>
