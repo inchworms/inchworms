@@ -31,7 +31,7 @@ D3 is the Javascript library for creating Interactive Data Visualization. D3 mea
 
 **Get started (the fun part!!!!):**
 
-To start with D3 first we have to download the javascript library [here](d3js.org/d3.v3.zip),decompress the zip file and move that folder in your project-folder. Now you create a empty index.html file and type that content: 
+To start with D3 first we have to download the javascript library [here](http://d3js.org/d3.v3.zip),decompress the zip file and move that folder in your project-folder. Now you create a empty index.html file and type that content: 
 
     <!DOCTYPE html>
     <html lang="en">
