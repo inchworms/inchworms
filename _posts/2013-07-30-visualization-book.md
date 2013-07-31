@@ -54,7 +54,7 @@ Your folder structure now should look something like this:
 
 The last thing to do is to set up a local webserver with phyton. Via the command line, navigate into the directory of the project and type:
 
-    $ python -m SimpleHTTPServer 8888 &.
+    $ python -m SimpleHTTPServer 8888 &
 
 Vóila, its working. Type localhost:8888 in your browser and you will see - nothing. Nothing inside javscript, Dummy! To start with the first visualization, add inside the script tag in the body:
 
