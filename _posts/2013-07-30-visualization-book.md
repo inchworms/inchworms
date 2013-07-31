@@ -2,7 +2,7 @@
 title: Visualize now - a book review (the first 60 pages!)
 layout: post
 created_at: Tue Jul 30 2013 22:00
-permalink: /blog/2013-07-01-visualize-now
+permalink: /blog/2013-07-30-visualize-now
 author: inchworms
 twitter: inchworms_
 
