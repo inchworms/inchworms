@@ -41,7 +41,7 @@ To start with D3 first we have to download the javascript library [here](d3js.or
         <script type="text/javascript" src="d3/d3.v3.js"></script>
       </head>
       <body>
-        <script type="text/javascript">
+        <script type="text/javascript"></script>
       </body>
     </html>
 
