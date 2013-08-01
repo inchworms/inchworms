@@ -2,7 +2,7 @@
 title: Visualize now - a book review (the first 60 pages!)
 layout: post
 created_at: Tue Jul 30 2013 22:00
-permalink: /blog/2013-07-01-visualize-now
+permalink: /blog/2013-07-30-visualize-now
 author: inchworms
 twitter: inchworms_
 
@@ -31,7 +31,7 @@ D3 is the Javascript library for creating Interactive Data Visualization. D3 mea
 
 **Get started (the fun part!!!!):**
 
-To start with D3 first we have to download the javascript library [here](d3js.org/d3.v3.zip),decompress the zip file and move that folder in your project-folder. Now you create a empty index.html file and type that content: 
+To start with D3 first we have to download the javascript library [here](http://d3js.org/d3.v3.zip),decompress the zip file and move that folder in your project-folder. Now you create a empty index.html file and type that content: 
 
     <!DOCTYPE html>
     <html lang="en">
@@ -54,7 +54,7 @@ Your folder structure now should look something like this:
 
 The last thing to do is to set up a local webserver with phyton. Via the command line, navigate into the directory of the project and type:
 
-    $ python -m SimpleHTTPServer 8888 &.
+    $ python -m SimpleHTTPServer 8888 &
 
 Vóila, its working. Type localhost:8888 in your browser and you will see - nothing. Nothing inside javscript, Dummy! To start with the first visualization, add inside the script tag in the body:
 
