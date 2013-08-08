@@ -23,5 +23,6 @@ She also made the whole chart taller because she wanted it to fill her entire sc
 
 Then [@bioshrimp](https://twitter.com/bioshrimp) came to visit for lunch. We sat on the roof and tried to look cool. Only @bioshrimp succeeded - no one with tats so good could ever look uncool :-) 
 <p></p>
-(Anja will post a photo here later, once she has redacted her face from the shot...)
-
+<p style="text-decoration:line-through;">(Anja will post a photo here later, once she has redacted her face from the shot...)</p>Done!
+<p></p>
+![troll face](/images/troll_face.jpg)
