@@ -7,7 +7,7 @@ author: inchworms
 twitter: inchworms_
 ---
 
-Today after Anja went nuts and Carla found the right music, we created a little video, that shows the beauty of data visualisation.
+Today after Anja went nuts and Carla found the right music, we created a little video showing the beauty of data visualisation.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/uP6D5XuexvU" frameborder="0" allowfullscreen></iframe>
 
