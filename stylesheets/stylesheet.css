@@ -384,3 +384,18 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+/* D3 chart styling */
+.slice text {
+            font-size: 16pt;
+            font-family: Arial;
+        }   
+#tooltip {
+          font-family: Arial;
+          display: none;
+          position: fixed;
+          color: white;
+          padding: 10px;
+          background-color: #000;
+          width: 150px;
+        }
