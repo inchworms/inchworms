@@ -16,8 +16,7 @@ Relieved we confronted our next challenge: turning a stack upside down.
 
 ![stack_top](/images/stack_top.jpg)
 <p></p>
-In between ... 
-<iframe src="http://loopc.am/tyranja/loops/14.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
+After
 ... hours of pondering.
 <p></p>
 
