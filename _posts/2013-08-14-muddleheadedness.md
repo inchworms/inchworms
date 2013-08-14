@@ -7,11 +7,13 @@ author: inchworms
 twitter: inchworms_
 ---
 
-We started with going through all the code we already worked with to check wether or not we understood. Luckely we got some printer paper. Thats how it looked.
+We started with going through all the code we already worked with to check whether or not we understood. Luckily we had some printer paper, so printed some files out to annotate by hand. This is how it looked:
 
 ![chaos](/images/chaos.jpg)
+<p></p>
+We were kind of able to explain all the cryptic looking code, yeay! 
+Relieved we confronted our next challenge: turning a stack upside down.
 
-And we kind of were able to explain all that cryptic looking code, yeay! Relieved we went on to the next challenge which was to turn around that stack. 
 ![stack_top](/images/stack_top.jpg)
 <p></p>
 In between ... 
@@ -21,6 +23,6 @@ In between ...
 
 ![stack_bottom](/images/stack_bottom.jpg)
 <p></p>
-But the result was overwelming and worth it :)
+The result was overwelming and worth it :)
 
 
