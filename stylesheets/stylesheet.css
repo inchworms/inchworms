@@ -390,7 +390,7 @@ footer a:hover {
             font-size: 16pt;
             font-family: Arial;
         }   
-#tooltip1 {
+.tooltip1 {
           font-family: Arial;
           display: none;
           position: fixed;
@@ -399,3 +399,16 @@ footer a:hover {
           background-color: #000;
           width: 150px;
         }
+
+div.tooltip2 {   
+        position: absolute;           
+        text-align: center;           
+        width: 100px;                  
+        padding: 5px;             
+        color: white;
+        font: 14px sans-serif;        
+        background: #222;   
+        border: 0px;      
+        border-radius: 2px;           
+        pointer-events: none;         
+}
