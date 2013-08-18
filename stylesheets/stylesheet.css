@@ -390,17 +390,8 @@ footer a:hover {
             font-size: 16pt;
             font-family: Arial;
         }   
-#tooltip1 {
-          font-family: Arial;
-          display: none;
-          position: fixed;
-          color: white;
-          padding: 10px;
-          background-color: #000;
-          width: 150px;
-        }
 
-div.tooltip2 {   
+div.tooltip_geomapping {   
         position: absolute;           
         text-align: center;           
         width: 100px;                  
@@ -412,3 +403,16 @@ div.tooltip2 {
         border-radius: 2px;           
         pointer-events: none;         
 }
+
+div.tooltip_pie {   
+        position: absolute;           
+        text-align: center;           
+        width: 100px;                  
+        padding: 5px;             
+        color: white;
+        font: 14px sans-serif;        
+        background: #222;   
+        border: 0px;      
+        border-radius: 2px;           
+        pointer-events: none;         
+        }
