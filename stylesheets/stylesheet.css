@@ -394,7 +394,7 @@ footer a:hover {
 div.tooltip_geomapping {   
         position: absolute;           
         text-align: center;           
-        width: 100px;                  
+        width: 150px;                  
         padding: 5px;             
         color: white;
         font: 14px sans-serif;        
@@ -416,3 +416,9 @@ div.tooltip_pie {
         border-radius: 2px;           
         pointer-events: none;         
         }
+
+div.number {
+        position: absolute;
+        color: #06665D;
+        font: bold 30px sans-serif;
+      }
