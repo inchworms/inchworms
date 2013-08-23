@@ -18,19 +18,16 @@ Then I came across that [github account](https://github.com/m-hoerz/berlin-shape
 **working json**
 
 Isn't it gorgeous? And look at the colors!
-Anyway then I made a choropleth map out of it and finally (took me half a day and a movie-evening with friend(there were complaing I wasn't watching)) got bars that are transforming from the BOTTOM to the top like normal bars do and not from the top to bottom. And the number of the population that are supposed to be on every bar is not there, although its on my localhost, argggggg! Just imagine they are there.
+Anyway then I made a choropleth map out of it and finally (took me half a day and a movie-evening with friend(there were complaing I wasn't watching)) got bars that are transforming from the BOTTOM to the top like normal bars do and not from the top to bottom. <s>And the number of the population that are supposed to be on every bar is not there, although its on my localhost, argggggg! Just imagine they are there.</s>Resolved. Thanks to Matt!
 
-<div id="geo_mapping_berlin" style="height: 550px;" ></div>
+<div id="geo_mapping_berlin" style="height: 650px;" ></div>
 
 <script type="text/javascript">
 (function() {
-
-
-      //Width and height
       var w = 800;
-      var h = 550;
+      var h = 650;
 
-      //Create SVG element
+        //Create SVG element
       var svg = d3.select("#geo_mapping_berlin")
             .append("svg")
             .attr("width", w)
@@ -56,10 +53,10 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
           //Merge the ag. data and GeoJSON
           //Loop through once for each ag. data value
           for (var i = 0; i < data.length; i++) {
-        
+
             //Grab state name
             var dataDistrict = data[i].district;
-            
+
             //Grab data value, and convert from string to float
             var dataPopulation = parseFloat(data[i].population);
             var dataLat = parseFloat(data[i].lat);
@@ -67,20 +64,15 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
         
             //Find the corresponding state inside the GeoJSON
             for (var j = 0; j < json.features.length; j++) {
-            
               var jsonDistrict = json.features[j].properties.Name;
-        
               if (dataDistrict == jsonDistrict) {
-            
                 //Copy the data Population into the JSON
                 json.features[j].properties.population = dataPopulation;
                 json.features[j].properties.lat = dataLat;
                 json.features[j].properties.lon = dataLon;
 
-                
                 //Stop looking through the JSON
                 break;
-                
                 }
               }
             }
@@ -89,10 +81,8 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
           
           //Tooltip div added
           var div_tooltip = d3.select("body").append("div")
-            .attr("class", "tooltip_geomapping")
+            .attr("class", "tooltip")
             .style("opacity", 0);
-
-
 
           //Define map projection
           var projection = d3.geo.mercator()
@@ -100,11 +90,9 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
                 .scale([350000])
                 .translate([w/2, h/2]);
 
-
           //Define path generator
           var path = d3.geo.path()
                    .projection(projection);
-
 
           svg.selectAll("path")
             .data(json.features)
@@ -132,36 +120,31 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
                 .duration(200)
                 .style("opacity", .9);
               div_tooltip
-                .html("<strong>" + d.properties.Name + "</strong></br> Population:" + d.properties.population)
+                .html("<b>" + d.properties.Name + "</b></br> Population:" + d.properties.population)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY - 28) + "px");
-              div_number
+              number
                 .text(d.properties.population)
-                .style("left", function() {
+                .attr("x", function() {
                   return (projection([d.properties.lon, d.properties.lat])[0]) + "px";
                   })
-                .style("top", function() {
-                  return (projection([d.properties.lon, d.properties.lat])[1]) -180 + "px";
+                .attr("y", function() {
+                  return (projection([d.properties.lon, d.properties.lat])[1]) + "px";
                   })
-              div_number
-                .style("top", h)
+              number
                 .transition()
                 .duration(600)
-                .style("left", function() {
+                .attr("x", function() {
                   return (projection([d.properties.lon, d.properties.lat])[0]) + "px";
                   })
-                .style("top", function() {
-                  return (projection([d.properties.lon, d.properties.lat])[1]) - yScale(d.properties.population) - 18 + "px";
+                .attr("y", function() {
+                  return (projection([d.properties.lon, d.properties.lat])[1]) - yScale(d.properties.population) - 1 + "px";
                   });
               rectangle
                 .attr("x", function() {
-                  // console.log("x=" + (projection([d.properties.lon, d.properties.lat])[0]))
                   return (projection([d.properties.lon, d.properties.lat])[0]);
                   })
                 .attr("y", function() {
-                  console.log("y vor transition=" + (projection([d.properties.lon, d.properties.lat])[1]))
-                  console.log("y nach transition"+ ((projection([d.properties.lon, d.properties.lat])[1]) - yScale(d.properties.population)))
-                  console.log("yScale oder height =" + yScale(d.properties.population))
                   return (projection([d.properties.lon, d.properties.lat])[1])
                   });
               rectangle
@@ -190,10 +173,10 @@ Anyway then I made a choropleth map out of it and finally (took me half a day an
                 .style("fill", "#06665D")
                 .style("opacity", 0.9);
 
-          var div_number = d3.select("svg").append("div")
-            .attr("class", "number")
-            .style("fill", "black");
+          var number = d3.select("svg").append("text")
+            .attr("class", "number");
           });
+
         });
 
   })()

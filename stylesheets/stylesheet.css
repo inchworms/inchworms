@@ -422,3 +422,7 @@ div.number {
         color: #06665D;
         font: bold 30px sans-serif;
       }
+text.number {
+              fill: #06665D;
+              font: bold 26px sans-serif;
+      }
