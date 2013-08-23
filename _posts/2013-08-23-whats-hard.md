@@ -24,3 +24,4 @@ Anja eventually worked out a solution to one of our problemos, earning herself a
 And a BIG thanks to our amazing coach [Matt](https://twitter.com/fidothe). He's not only a champ with Sinatra, he also knows his way around d3. We are impressed!
 
 ![supercoach](http://weknowgifs.com/wp-content/uploads/2013/05/mexican-soccer-coach-super-saiyan-gif.gif)
+
