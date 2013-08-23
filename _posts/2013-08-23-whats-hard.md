@@ -1,7 +1,7 @@
 ---
-title: whats hard
+title: Whats Hard
 layout: post
-created_at: Fri Aug 23 2013 15:00
+created_at: Fri Aug 23 2013 15:30
 permalink: /blog/2013-08-23-whats-hard
 author: inchworms
 twitter: inchworms_
