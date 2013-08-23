@@ -1,5 +1,5 @@
 ---
-title: Whats Hard
+title: What's Hard
 layout: post
 created_at: Fri Aug 23 2013 15:30
 permalink: /blog/2013-08-23-whats-hard
