@@ -1,5 +1,5 @@
 ---
-title: Can We live Without You?
+title: Can We Live Without You?
 layout: post
 created_at: Fri Aug 30 2013 17:50
 permalink: /blog/2013-09-01-without-you
