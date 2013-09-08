@@ -1,0 +1,108 @@
+---
+layout: blank
+title: We <3 Travis
+---
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/travis.css" media="screen" />
+<title>We <3 Travis</title>
+
+{% assign img_url = "https://dyrci3isikb50.cloudfront.net/files/167790/original/loop.gif" %}
+
+{% assign alt_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." %}
+
+
+<!-- Define all of the tiles: -->
+<div class="box">
+  <div class="boxInner">
+    <img src={{img_url}} />
+    <div class="titleBox">{{alt_text}}</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/167790/original/loop.gif" />
+    <div class="titleBox">An old greenhouse</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/166816/original/loop.gif" />
+    <div class="titleBox">Purple wildflowers</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/166192/original/loop.gif" />
+    <div class="titleBox">A birdfeeder</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/165388/original/loop.gif" />
+    <div class="titleBox">Crocus close-up</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/163023/original/loop.gif" />
+    <div class="titleBox">The garden shop</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/147785/original/loop.gif" />
+    <div class="titleBox">Spring daffodils</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/138704/original/loop.gif" />
+    <div class="titleBox">Iris along the path</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/138702/original/loop.gif" />
+    <div class="titleBox">The garden blueprint</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/135424/original/loop.gif" />
+    <div class="titleBox">The patio</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/138473/original/loop.gif" />
+    <div class="titleBox">Bumble bee collecting nectar</div>
+  </div>
+</div>
+<div class="box">
+  <div class="boxInner">
+    <img src="https://dyrci3isikb50.cloudfront.net/files/118074/original/loop.gif" />
+    <div class="titleBox">Winding garden path</div>
+  </div>
+</div>
+
+<!-- /#wrap -->
+
+<!-- Add some JavaScript to enable toggling the descriptions when an image is tapped on a touchscreen device -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$(function(){
+  // See if this is a touch device
+  if ('ontouchstart' in window)
+  {
+    // Set the correct body class
+    $('body').removeClass('no-touch').addClass('touch');
+    
+    // Add the touch toggle to show text
+    $('div.boxInner img').click(function(){
+      $(this).closest('.boxInner').toggleClass('touchFocus');
+    });
+  }
+});
+</script>
+
