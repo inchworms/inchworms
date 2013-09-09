@@ -6,7 +6,7 @@ body {
 }
 .wrap {
   overflow: hidden;
-  margin: 10px;
+  /*margin: 10px;*/
 }
 .box {
   float: left;
@@ -70,5 +70,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   .box {
     width: 25%;
     padding-bottom: 25%;
+  }
+}
+
+@media only screen and (max-width : 2000px) and (min-width : 1290px) {
+  /* Large desktop: 5 tiles */
+  .box {
+    width: 15%;
+    padding-bottom: 15%;
   }
 }
