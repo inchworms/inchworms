@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="inchworms RGSoC">
+    <meta name="keywords" content="inchworms, rails girls, summer of code, open source, sinatra, farm subsidy">
+    <meta name="author" content="inchworms_">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/blog/feed.xml">
+    <link rel="shortcut icon" href="/faviconStatic.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>inch by inch</title>
+    <script type="text/javascript" src="/javascripts/d3.v3.js">
+    </script>
+    <!-- <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.1.3"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="/blog" class="">
+          <img src="http://25.media.tumblr.com/aab70fec3abd0a9a6b9f1803621aabc0/tumblr_mn2s5hgPpX1qlpk58o1_400.gif" alt="inchworm" height="84" width="100" style="position:relative; top:5px; float:right;">   
+          <h1>inchworms</h1></a>
+          <h2>Summer of Coding, one inch at a time...</h2>
+              
+        </header>
+   
+        <section id="main_content">
+                <article class="main_content">
+    <h1>Upgrade</h1>
+      <p class='meta'>
+        
+          <a href='http://twitter.com/inchworms_'>inchworms</a> -
+        
+        <time datetime="Thu 5 September, 2013">Thu 5 September, 2013</time>
+        <span style="float:right">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Upgrade" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+      </p>
+      <p>Steps to upgrade your HDD to an SSD:</p>
+
+<ul>
+<li>prepare a bootable USB drive with Ubuntu system on it (instructions available on Ubuntu website)</li>
+<li>get rid of everything you don&#39;t want on your current drive (including Google Chrome caches)</li>
+<li>empty the trash</li>
+<li>log out of the graphical interface</li>
+<li>change to a text console (ctrl + alt + F1)</li>
+<li>login with username and sudo password</li>
+<li>switch to root user (<strong>$ sudo -i</strong>)</li>
+<li>find out how big the home folder is (<strong># du -sh/home/username</strong>)</li>
+<li>find all the disks on the machine and their usage (<strong># df -h</strong>)</li>
+<li>go to home directory (<strong># cd /home</strong>)</li>
+<li>check present working directory (<strong># pwd</strong>)</li>
+<li>check what is in directory (<strong># ls</strong>)</li>
+<li>zip the folder (<strong># tar czvf backup_home.tgz username/</strong>)</li>
+<li>if the screen goes black at any stage during the compression press the SHIFT key to wake the screen up</li>
+<li>once the archive is complete copy this to an external drive</li>
+<li>ctrl + d to exit the root user</li>
+<li>ctrl + d to exit the text console session</li>
+<li>shut down the computer</li>
+<li>take out the old HDD (making note of orientation as you pull it out)</li>
+<li>unscrew HDD from casing and put SSD drive in casing</li>
+<li>put SSD drive into computer</li>
+<li>put bootable USB w Ubuntu install into USB port</li>
+<li>start computer (you may need to enter BIOS to configure computer to boot from USB drive)</li>
+<li>follow instructions to install Ubuntu from USB drive</li>
+<li>once installed log in</li>
+<li>log out</li>
+<li>restart computer (remove USB drive when computer is off and before it restarts)</li>
+<li>log in and check for system updates</li>
+<li>download and install updates</li>
+<li>restart</li>
+<li>put your old HDD into the USB casing you purchased when buying your SSD</li>
+<li>if your HDD and new SSD drive have the same version of Ubuntu you can copy the contents of your old home directory directly to your new home directory</li>
+<li>plug the HDD drive into a USB port</li>
+<li>log out of graphical interface</li>
+<li>open text console and log in</li>
+<li>become root user (<strong>$ sudo -i</strong>)</li>
+<li>navigate to home directory (<strong># cd /home</strong>)</li>
+<li>check the <username> of home folder to rename (<strong># ls</strong>)</li>
+<li>move username folder to new folder(<strong># mv username ssd_username</strong>)</li>
+<li>find location of old HHD home folder</li>
+<li>sync home username folder on HDD with home username folder on SSD</li>
+<li><strong># rsync -Pav path-to-old-home-folder name-of-new-home-folder</strong></li>
+<li>then sudo install git and curl</li>
+<li>install rvm</li>
+<li>sudo install postgres 
+
+<ul>
+<li><strong>sudo apt-get install postgresql</strong></li>
+<li><strong>sudo -u postgres createuser --superuser $USER</strong></li>
+<li><strong>sudo apt-get install libpq-dev</strong></li>
+</ul></li>
+<li>install whatever other applications and configurations you were using before (if they haven&#39;t been saved in your original home folder)</li>
+</ul>
+
+<p>Viola!! Watch your databases populate a squillion times faster :-)</p>
+
+      <p><img src="../../images/hr.png" style="50% 0 no-repeat"></p>
+    </article>
+
+
+        </section>
+
+        <footer>
+          inchworms is maintained by <a href="https://github.com/carlad">carlad</a> & <a href="https://github.com/tyranja">tyranja</a> as part of their <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a> team project.<br>
+          An <a href="http://inchworms.net/blog/feed.xml">RSS feed</a> is available. You can also follow inchworms on <a href="https://twitter.com/inchworms_">twitter</a>.<br> 
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41825288-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+          <!-- Start of StatCounter Code for Default Guide -->
+              <script type="text/javascript">
+                var sc_project=9035219; 
+                var sc_invisible=1; 
+                var sc_security="4db3485e"; 
+                var scJsHost = (("https:" == document.location.protocol) ?
+                "https://secure." : "http://www.");
+                document.write("<sc"+"ript type='text/javascript' src='" +
+                scJsHost+
+                "statcounter.com/counter/counter.js'></"+"script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter"
+                  href="http://statcounter.com/free-hit-counter/"
+                  target="_blank"><img class="statcounter"
+                  src="http://c.statcounter.com/9035219/0/4db3485e/1/"
+                  alt="web counter"></a></div>
+            </noscript>
+              <!-- End of StatCounter Code for Default Guide -->
+
+      </div>
+    </div>
+  </body>
+</html>

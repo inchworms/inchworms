@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="inchworms RGSoC">
+    <meta name="keywords" content="inchworms, rails girls, summer of code, open source, sinatra, farm subsidy">
+    <meta name="author" content="inchworms_">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/blog/feed.xml">
+    <link rel="shortcut icon" href="/faviconStatic.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>inch by inch</title>
+    <script type="text/javascript" src="/javascripts/d3.v3.js">
+    </script>
+    <!-- <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.1.3"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="/blog" class="">
+          <img src="http://25.media.tumblr.com/aab70fec3abd0a9a6b9f1803621aabc0/tumblr_mn2s5hgPpX1qlpk58o1_400.gif" alt="inchworm" height="84" width="100" style="position:relative; top:5px; float:right;">   
+          <h1>inchworms</h1></a>
+          <h2>Summer of Coding, one inch at a time...</h2>
+              
+        </header>
+   
+        <section id="main_content">
+                <article class="main_content">
+    <h1>Setting up Our Database</h1>
+      <p class='meta'>
+        
+          <a href='http://twitter.com/inchworms_'>inchworms</a> -
+        
+        <time datetime="Fri 30 August, 2013">Fri 30 August, 2013</time>
+        <span style="float:right">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Setting up Our Database" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+      </p>
+      <p>If the thought of setting up databases provokes this response:</p>
+
+<p><img src="/images/freakedmatt.jpg" alt="freaked matt" style="width: 300px;"/></p>
+
+<p>FEAR NOT!!! </p>
+
+<p>Follow these simple steps instead:</p>
+
+<p>(This is what we did to set up the (development) database we&#39;ll be using for our Farmsubsidy project).</p>
+
+<ol>
+<li><p>Map out the basic data model on a piece of paper, including the relationships between each dataset/table (i.e. one to many, must have, zero or more).</p></li>
+<li><p>Normalise (to get rid of repetition) or De-Normalise (to put it back when removing it is actually not totally logical or necessary)</p></li>
+<li><p>Create a migration file. Name this using the Rails convention: date&amp;timestamp_migration.rb. Store this file in db/migrations/ directory of your application.</p></li>
+<li><p>Write the migration in Sequel, creating tables in the order required for any foreign keys between tables to compute.</p></li>
+<li><p>Create a Rakefile. Write the migration methods here.</p></li>
+<li><p>In terminal create the database (if you haven&#39;t already): <strong>createdb databaseName</strong></p></li>
+<li><p>Create a Gemfile that includes all required gems (in this case &#39;sequel&#39;, &#39;rake&#39;, and &#39;pg&#39;).</p></li>
+<li><p>In terminal run <strong>bundle install</strong> to install the required gems localy</p></li>
+<li><p>In terminal run <strong>rake db:migrate</strong> to run the migration and create all the tables in the database.</p></li>
+</ol>
+
+<p>Then enjoy wearing your DataBase forehead sticker with pride:</p>
+
+<p><img src="/images/matt.jpg" alt="cheeky matt" style="width: 400px;"/></p>
+
+      <p><img src="../../images/hr.png" style="50% 0 no-repeat"></p>
+    </article>
+
+
+        </section>
+
+        <footer>
+          inchworms is maintained by <a href="https://github.com/carlad">carlad</a> & <a href="https://github.com/tyranja">tyranja</a> as part of their <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a> team project.<br>
+          An <a href="http://inchworms.net/blog/feed.xml">RSS feed</a> is available. You can also follow inchworms on <a href="https://twitter.com/inchworms_">twitter</a>.<br> 
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41825288-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+          <!-- Start of StatCounter Code for Default Guide -->
+              <script type="text/javascript">
+                var sc_project=9035219; 
+                var sc_invisible=1; 
+                var sc_security="4db3485e"; 
+                var scJsHost = (("https:" == document.location.protocol) ?
+                "https://secure." : "http://www.");
+                document.write("<sc"+"ript type='text/javascript' src='" +
+                scJsHost+
+                "statcounter.com/counter/counter.js'></"+"script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter"
+                  href="http://statcounter.com/free-hit-counter/"
+                  target="_blank"><img class="statcounter"
+                  src="http://c.statcounter.com/9035219/0/4db3485e/1/"
+                  alt="web counter"></a></div>
+            </noscript>
+              <!-- End of StatCounter Code for Default Guide -->
+
+      </div>
+    </div>
+  </body>
+</html>

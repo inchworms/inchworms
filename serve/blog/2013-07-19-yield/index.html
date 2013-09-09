@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="inchworms RGSoC">
+    <meta name="keywords" content="inchworms, rails girls, summer of code, open source, sinatra, farm subsidy">
+    <meta name="author" content="inchworms_">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/blog/feed.xml">
+    <link rel="shortcut icon" href="/faviconStatic.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>inch by inch</title>
+    <script type="text/javascript" src="/javascripts/d3.v3.js">
+    </script>
+    <!-- <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.1.3"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="/blog" class="">
+          <img src="http://25.media.tumblr.com/aab70fec3abd0a9a6b9f1803621aabc0/tumblr_mn2s5hgPpX1qlpk58o1_400.gif" alt="inchworm" height="84" width="100" style="position:relative; top:5px; float:right;">   
+          <h1>inchworms</h1></a>
+          <h2>Summer of Coding, one inch at a time...</h2>
+              
+        </header>
+   
+        <section id="main_content">
+                <article class="main_content">
+    <h1>Yield! (to my superior knowledge)</h1>
+      <p class='meta'>
+        
+          <a href='http://twitter.com/inchworms_'>inchworms</a> -
+        
+        <time datetime="Fri 19 July, 2013">Fri 19 July, 2013</time>
+        <span style="float:right">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Yield! (to my superior knowledge)" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+      </p>
+      <p><img src="/images/metamatt.jpg" alt="Meta Matt"></p>
+
+<p>Do not doubt this man. He will take a statement like <strong>yield</strong> and break it into meta-programmed chunks. All before breakfast (smells a lot like RGSoC spirit to us ;-))</p>
+
+<p><em>Very</em> simply, a <strong>yield</strong> statement will invoke a <strong>block</strong>. This is all you really need to know.</p>
+
+<p><img src="http://d24w6bsrhbeh9d.cloudfront.net/photo/ab5ynVp_700b.jpg" alt="we have no idea what we&#39;re doing"></p>
+
+<p>The rest of the day we spent writing the <a href="https://github.com/inchworms/sinatra_tests/blob/master/spec/routing_spec.rb">routing spec</a> for our Sinatra testing and refactoring it all into beautifully contextualised syntax. Here&#39;s a list of the remaining Sinatra routing tests we need to write:</p>
+
+<ul>
+<li>allows using unicode</li>
+<li>it handles encoded slashes correctly</li>
+<li>overrides the content-type in error handlers</li>
+<li>matches empty PATH_INFO to &quot;/&quot; if no route is defined for &quot;&quot;</li>
+<li>matches empty PATH_INFO to &quot;&quot; if a route is defined for &quot;&quot;</li>
+<li>takes multiple definitions of a route</li>
+<li>exposes params with indifferent hash</li>
+<li>merges named params and query string params in params</li>
+<li>supports optional named params like /?:foo?/?:bar?</li>
+<li>supports named captures like %r{/hello/(?<person>[^/?+ ]+)} on Ruby &gt;= 1.9</li>
+<li>supports optional named captures like %r{/page(?<format>.[^/?+ ]+)?} on Ruby &gt;= 1.9</li>
+<li>does not concatinate params with the same name</li>
+<li>supports single splat params like /*</li>
+<li>supports mixing multiple splat params like /<em>/foo/</em>/*</li>
+<li>supports mixing named and splat params like /:foo/*</li>
+<li>matches a dot (&#39;.&#39;) as part of a named param</li>
+<li>matches a literal dot (&#39;.&#39;) outside of named params</li>
+<li>literally matches dollar sign in paths</li>
+<li>literally matches plus sign in paths</li>
+<li>does not convert plus sign into space as the value of a named param</li>
+<li>literally matches parens in paths</li>
+<li>supports basic nested params</li>
+<li>exposes nested params with indifferent hash</li>
+<li>exposes params nested within arrays with indifferent hash</li>
+<li>supports arrays within params</li>
+<li>supports deeply nested params</li>
+<li>preserves non-nested params</li>
+<li>matches paths that include spaces encoded with %20</li>
+<li>matches paths that include spaces encoded with +</li>
+<li>matches paths that include ampersands</li>
+<li>URL decodes named parameters and splats</li>
+<li>supports regular expressions</li>
+<li>makes regular expression captures available in params[:captures]</li>
+<li>supports regular expression look-alike routes</li>
+<li>raises a TypeError when pattern is not a String or Regexp</li>
+<li>returns response immediately on halt</li>
+<li>halts with a response tuple</li>
+<li>halts with an array of strings</li>
+<li>sets response.status with halt</li>
+<li>transitions to the next matching route on pass</li>
+<li>transitions to 404 when passed and no subsequent route matches</li>
+<li>transitions to 404 and sets X-Cascade header when passed and no subsequent route matches</li>
+<li>uses optional block passed to pass as route block if no other route is found</li>
+<li>passes when matching condition returns false</li>
+<li>does not pass when matching condition returns nil</li>
+<li>passes to next route when condition calls pass explicitly</li>
+<li>passes to the next route when host_name does not match</li>
+<li>passes to the next route when user_agent does not match</li>
+<li>treats missing user agent like an empty string</li>
+<li>makes captures in user agent pattern available in params[:agent]</li>
+<li>matches mime_types with dots, hyphens and plus signs</li>
+<li>filters by accept header</li>
+<li>filters by current Content-Type</li>
+<li>allows multiple mime types for accept header</li>
+<li>respects user agent preferences for the content type</li>
+<li>accepts generic types</li>
+<li>prefers concrete over partly generic types</li>
+<li>prefers concrete over fully generic types</li>
+<li>prefers partly generic over fully generic types</li>
+<li>respects quality with generic types</li>
+<li>supplies a default quality of 1.0</li>
+<li>orders types with equal quality by parameter count</li>
+<li>ignores the quality parameter when ordering by parameter count</li>
+<li>properly handles quoted strings in parameters</li>
+<li>accepts both text/javascript and application/javascript for js</li>
+<li>accepts both text/xml and application/xml for xml</li>
+<li>passes a single url param as block parameters when one param is specified</li>
+<li>passes multiple params as block parameters when many are specified</li>
+<li>passes regular expression captures as block parameters</li>
+<li>supports mixing multiple splat params like /<em>/foo/</em>/* as block parameters</li>
+<li>raises an ArgumentError with block arity &gt; 1 and too many values</li>
+<li>raises an ArgumentError with block param arity &gt; 1 and too few values</li>
+<li>succeeds if no block parameters are specified</li>
+<li>passes all params with block param arity -1 (splat args)</li>
+<li>allows custom route-conditions to be set via route options</li>
+<li>raises an ArgumentError with block param arity 1 and no values</li>
+<li>raises an ArgumentError with block param arity 1 and too many values</li>
+<li>matches routes defined in superclasses</li>
+<li>matches routes in subclasses before superclasses</li>
+<li>adds hostname condition when it is in options</li>
+<li>allows using call to fire another request internally</li>
+<li>plays well with other routing middleware</li>
+<li>returns the route signature</li>
+<li>sets env[&#39;sinatra.route&#39;] to the matched route</li>
+</ul>
+
+<p>See you sometime next decade...</p>
+
+      <p><img src="../../images/hr.png" style="50% 0 no-repeat"></p>
+    </article>
+
+
+        </section>
+
+        <footer>
+          inchworms is maintained by <a href="https://github.com/carlad">carlad</a> & <a href="https://github.com/tyranja">tyranja</a> as part of their <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a> team project.<br>
+          An <a href="http://inchworms.net/blog/feed.xml">RSS feed</a> is available. You can also follow inchworms on <a href="https://twitter.com/inchworms_">twitter</a>.<br> 
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41825288-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+          <!-- Start of StatCounter Code for Default Guide -->
+              <script type="text/javascript">
+                var sc_project=9035219; 
+                var sc_invisible=1; 
+                var sc_security="4db3485e"; 
+                var scJsHost = (("https:" == document.location.protocol) ?
+                "https://secure." : "http://www.");
+                document.write("<sc"+"ript type='text/javascript' src='" +
+                scJsHost+
+                "statcounter.com/counter/counter.js'></"+"script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter"
+                  href="http://statcounter.com/free-hit-counter/"
+                  target="_blank"><img class="statcounter"
+                  src="http://c.statcounter.com/9035219/0/4db3485e/1/"
+                  alt="web counter"></a></div>
+            </noscript>
+              <!-- End of StatCounter Code for Default Guide -->
+
+      </div>
+    </div>
+  </body>
+</html>

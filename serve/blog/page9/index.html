@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="inchworms RGSoC">
+    <meta name="keywords" content="inchworms, rails girls, summer of code, open source, sinatra, farm subsidy">
+    <meta name="author" content="inchworms_">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="alternate" type="application/rss+xml" title="inchworms" href="http://inchworms.net/blog/feed.xml">
+    <link rel="shortcut icon" href="/faviconStatic.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>inch by inch</title>
+    <script type="text/javascript" src="/javascripts/d3.v3.js">
+    </script>
+    <!-- <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.1.3"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <a href="/blog" class="">
+          <img src="http://25.media.tumblr.com/aab70fec3abd0a9a6b9f1803621aabc0/tumblr_mn2s5hgPpX1qlpk58o1_400.gif" alt="inchworm" height="84" width="100" style="position:relative; top:5px; float:right;">   
+          <h1>inchworms</h1></a>
+          <h2>Summer of Coding, one inch at a time...</h2>
+              
+        </header>
+   
+        <section id="main_content">
+            <!-- This loops through the paginated posts -->
+
+  <h1><a href="/blog/2013-07-08-docs-back-trace">The Docs, The Back Trace</a></h1>
+  <p class="meta">
+      
+          <a href='http://twitter.com/inchworms_'>inchworms</a> - 
+        
+    <span class="date">Mon 8 July, 2013, 17:53</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="The Docs, The Back Trace" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    <p>Checking the documentation and looking at the error back trace was the theme of today. We though we&#39;d sucessfully implementing the date validation on Friday afternoon, but we realised over the weekend that it was only working properly when we created a new song, not when we updated a song.</p>
+
+<p>Matt left us in the morning with the task of working out how to fix this. His parting words were &quot;Check the documentation and read the back trace&quot;.</p>
+
+<p>We spent most of the morning doing the following:</p>
+
+<p><img src="http://www.kaputtmutterfischwerk.de/wp-content/uploads/2013/07/Falling-asleep-master-level.gif" alt="pillow kiss" style="width: 500px;"/></p>
+
+<p>The issue (we eventually realised, with Urs&#39; help) was that we were checking validation not on the newly entered data but on original data in the song. We had to instead make sure we were checking the updated data. This meant changing </p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    song = Song.get(param[:id])
+    if song.valid?
+</code></pre></div>
+<p>to</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    song = Song.get(param[:id])
+    if song.update(params[:song])
+</code></pre></div>
+<p>It only took us 3 hours to work this out :/</p>
+
+<p>We then tried to customise the error messages that DataMapper raised. And had some success doing this. But still couldn&#39;t manage to override the default error message on the date field validation. We might look at this again tomorrow.</p>
+
+<p>We switched to preparing for the screencasts we plan to record for our https://github.com/inchworms/songs<em>by</em>nancy/tree/Tutorial-Part-2sample app tutorial, changing our outline a little:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Building a Basic Website - Screencast Outline
+
+Part 1 - Installing Sinatra, Basic Requests, Routes, 
+         Inline Views, Using Sinatra Reloader, Dynamic Variables
+Part 2 - Layouts, Folder Structure, External Views, 
+         Partials, Instance Variables, Images, CSS
+Part 3 - Using Static Data, Deploying to Heroku
+Part 4 - Using a Database, Add/Edit/Deleting, Validations
+</code></pre></div>
+<p>We wrote rough scripts for Parts 1 &amp; 2, and created branches in github where people will be able to download relevant files: <a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1">Part 1</a> and <a href="https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-2">Part 2</a></p>
+
+<p><img src="/images/script.jpg" alt="script"></p>
+
+<p>Tomorrow we&#39;ll start recording screencasts for these...</p>
+
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+
+  <h1><a href="/blog/2013-07-05-validation-suxxxxxx">Validation Sux</a></h1>
+  <p class="meta">
+      
+          <a href='http://twitter.com/inchworms_'>inchworms</a> - 
+        
+    <span class="date">Fri 5 July, 2013, 17:06</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="Validation Sux" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    <p>It really does.</p>
+
+<p>We got most of our form fields validating but couldn&#39;t work out how to handle the date field.</p>
+
+<p>We did discover that some browsers (eg Chrome) automatically display a funky calender selector input thingy if the html form input type is set to &quot;date&quot;:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    &lt;input type=&quot;date&quot; name=&quot;song[released_on]&quot;&gt;
+</code></pre></div>
+<p>Which looks a little funky, if you ask us:</p>
+
+<p><img src="http://i.stack.imgur.com/5Pzjv.png" alt="date entry field"></p>
+
+<p>So since Firefox ignored &quot;date&quot; as an input type, meaning we&#39;d need to reformat whatever was entered with a Firefox browser into something our app would recognise as a date, we decided to make the input type &quot;text&quot;. Less code to write and more uniformity across browsers...</p>
+
+<p>But we still had trouble working out how to code things in a way that would force the user to enter data in the format we needed (dd/mm/yyyy). After several failed attempts we decided we need detailed coaching help, so while we waited for that we went back to version 1 of the app. We tidied it up and deployed it to Heroku. You can now visit a working version online <a href="http://songs-by-nancy.herokuapp.com">here</a>.</p>
+
+<p>Next week we&#39;ll start recording screencasts to guide viewers through all the steps we took to build the different versions of our apps. Our plan at the moment is to put the relevant code for each step into a seperate github branch - but Carla&#39;s thinking it might be better to simply make a seperate section in our inchworms blog gh-pages for any tutorials we create and embed the code there. We&#39;ll work all this out on Monday.</p>
+
+<p>So, we&#39;re almost at the end of week one, and we&#39;re more-or-less on track. Matt&#39;s due any second to help us crack our date validation conundrum, so hopefully we&#39;ll solve that before today&#39;s close of play. </p>
+
+<p>Have a happy weekend y&#39;all :-)</p>
+
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+
+  <h1><a href="/blog/2013-07-04-love-irb">Learning to Love irb More</a></h1>
+  <p class="meta">
+      
+          <a href='http://twitter.com/inchworms_'>inchworms</a> - 
+        
+    <span class="date">Thu 4 July, 2013, 17:00</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="Learning to Love irb More" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    <p>Matt greeted us in the morning with these:</p>
+
+<p><img src="http://farm3.staticflickr.com/2852/9207288174_35bc62f82c.jpg" alt="strawberries"></p>
+
+<p>Locally grown, sumptuously sweet, and the surest sign that summer has arrived in Berlin.</p>
+
+<p>We should have known this was merely a ploy to distract us because shortly thereafter Matt had us refactoring upon what we had already refactored, apparently to make our app better (but which we thought made it more confusing).</p>
+
+<p>So, while we finished the strawberries, we decided (unanimously) to put his suggested changes into a new branch titled <a href="https://github.com/inchworms/songs_by_nancy/tree/matt-is-evil">matt is evil</a>. </p>
+
+<p>Then we went back to our master branch.</p>
+
+<p>We added error handling, for cases where users try to load dodgy urls (and by dodgy we mean urls pointing to things that don&#39;t exist, like ../songs/1/mattistboese), then we continued with v2 of the app.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    irb(main):001 &gt; This is when our love for irb grew even more.
+</code></pre></div>
+<p>We&#39;re basing our sample app on the one Darren Jones builds in his <a href="http://www.sitepoint.com/books/sinatra1/?utm_source=sitepoint&amp;utm_medium=email-newsletter&amp;utm_campaign=sinatra1">Jump Start Sinatra</a> book. But while he uses <a href="http://slim-lang.com/">slim</a> (an html rendering engine), we&#39;re sticking with <a href="http://ruby-doc.org/stdlib-2.0/libdoc/erb/rdoc/ERB.html">erb</a>. Consequently there are a few differences between his syntax and ours, which meant our app started throwing errors. At one point, for example, we couldn&#39;t work out how to delete one of our database objects. But by using the irb console we were able to test what worked and what didn&#39;t before writing too much application code. It was time efficient and much less annoying than writing code, saving the file, refreshing the browser window, reading through the error message, writing more code, etc...</p>
+
+<p>We spent the rest of the day implementing the ability to create, edit, and delete songs and added a bit of rudimentary styling.</p>
+
+<p>Tomorrow we&#39;ll be adding validation to our form (to make it check for any input errors - like a badly formatted date entry for example) and breaking our screencast outline into bite-sized chunks.</p>
+
+<p>Hasta mañana amigas...</p>
+
+<p><img src="http://s1.static.gotsmile.net/images/2012/08/17/internet-memes-code-refactoring_134518024669.gif" alt="refactoring"></p>
+
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+
+  <h1><a href="/blog/2013-07-03-so-lost">So Lost</a></h1>
+  <p class="meta">
+      
+          <a href='http://twitter.com/inchworms_'>inchworms</a> - 
+        
+    <span class="date">Wed 3 July, 2013, 16:38</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="So Lost" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    <p>Today we started creating <a href="https://github.com/inchworms/songs_by_nancy_v2">version 2</a> of our app using DataMapper to implement basic database functionality. But before we could finish this Matt wanted us to improve our initial version of the app by converting our data directly from a csv file into Ruby (thereby circumventing the need for a JSON file altogether).</p>
+
+<p>This was easier said than done.</p>
+
+<p>Four hours later we were bashing our keyboards with traumatised fingertips and jamming our over-clocked irc clients with copy-pasted error messages (Anja uses irssi by the way. She is übergeek).</p>
+
+<p>Anja was in need of ibroprofen or earplugs (or both), and Carla needed to lower her voice a little. What seemed relatively simple with JSON.parse was completly confounding with CSV.parse. Most of it boiled down to the fact that JSON could pretty easily parse an array of hashes, but CSV needed more coaxing. ANYWAY. Urs thankfully indicated a few blindingly obvious syntax errors that had been staring us in the face all along. A missing comma here, a misplaced curly bracket there, you know the drill. It really is true that staring at code for hours can make it impossible to see.</p>
+
+<p>Meanwhile, if that didn&#39;t make the day crazy enough, Konstatine had his own vision impairments, spending most of it searching for a piece of code he just couldn&#39;t find...</p>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/xDklw2MfFhQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+
+  <h1><a href="/blog/2013-07-01-sticking-it">Sticking Things to the Wall</a></h1>
+  <p class="meta">
+      
+          <a href='http://twitter.com/inchworms_'>inchworms</a> - 
+        
+    <span class="date">Tue 2 July, 2013, 18:50</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="Sticking Things to the Wall" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    <p>We continued working on our sample app <a href="https://github.com/inchworms/songs_by_nancy">Songs By Nancy</a>. </p>
+
+<p>Before implementing a database, and with it the ability to add and remove content, we worked with a static file of data first (as per Matt&#39;s suggestion). This involved creating a spreadsheet file, exporting it as a csv file, converting this file to JSON, then parsing the JSON file into a ruby hash. All in a morning&#39;s work ;-) </p>
+
+<p>(Actually, Anja was pretty excited about learning how to do this and Carla was amazed that she remembered - from hack-day projects she&#39;d worked on - how it could be done).</p>
+
+<p>Then there was a bit more faffing about with a couple of new pages (one to display a list of songs, one to display individual song lyrics), which meant new templates, and some changes to the main.rb.</p>
+
+<p>Our next task was to sketch up an outline of what the structure of our tutorial would look like. We charted several steps, which we divided into parts. Each part will form the basis of a screencast:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">    Building a Basic Website - Screencast Outline
+
+    Part 1 - Basic Requests, Defining Variables, Using Sinatra Reloader
+    Part 2 - Views, Layouts, Partials, Folder Structure, Images, CSS
+    Part 3 - Using Static Data, Using a Database, Add/Edit/Deleting
+    Part 4 - Error Handling
+</code></pre></div>
+<p>Konstantin, meanwhile, refused, despite our insistence, to print the single-page literary epic that is Sinatra&#39;s base.rb. We wanted to stick it to the wall and draw flow-arrows between which parts of the file interacted with other parts of the file. Herr Haase, however, was dubious. </p>
+
+<p>22 pages? A ridiculous idea! </p>
+
+<p>Were we deterred? No! </p>
+
+<p>We hopped onto the <a href="http://ezeep.com">Ezeep</a> printing service, found a printer on Level 3 of the same building, and within miniutes had the 22 page document plastered to the wall. </p>
+
+<p>Unsurprisingly it took less than another half minute for Konstantin to appear and admire his handiwork. There he remained for the rest of the afternoon.</p>
+
+<iframe width="360" height="640" src="//www.youtube.com/embed/Sc15a4wZLfQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p><br>
+Tomorrow rkh promises to print out <a href="https://raw.github.com/rkh/almost-sinatra/master/almost_sinatra.rb">Almost Sinatra</a>. It should take up a little less space...</p>
+
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+
+
+
+<!-- Pagination litransparent url('/../images/hr.png') 0 0 no-repeatnks -->
+<div class="pagination">
+  
+    <br>
+    
+
+      
+          <a href="/blog/page8" class="previous " style="padding-left:5px">Recent Posts</a>
+        
+    
+    
+    <span class="page_number " style="padding-left:25%; font-weight:normal; font-size:12px;">Page: 9 of 11</span>
+
+     
+    
+      <a href="/blog/page10" class="next " style="float:right; padding-right:30px;">Earlier Posts</a>
+    
+  
+</div>
+
+        </section>
+
+        <footer>
+          inchworms is maintained by <a href="https://github.com/carlad">carlad</a> & <a href="https://github.com/tyranja">tyranja</a> as part of their <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a> team project.<br>
+          An <a href="http://inchworms.net/blog/feed.xml">RSS feed</a> is available. You can also follow inchworms on <a href="https://twitter.com/inchworms_">twitter</a>.<br> 
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.<br>
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41825288-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+          <!-- Start of StatCounter Code for Default Guide -->
+              <script type="text/javascript">
+                var sc_project=9035219; 
+                var sc_invisible=1; 
+                var sc_security="4db3485e"; 
+                var scJsHost = (("https:" == document.location.protocol) ?
+                "https://secure." : "http://www.");
+                document.write("<sc"+"ript type='text/javascript' src='" +
+                scJsHost+
+                "statcounter.com/counter/counter.js'></"+"script>");
+              </script>
+              <noscript>
+                <div class="statcounter"><a title="web counter"
+                  href="http://statcounter.com/free-hit-counter/"
+                  target="_blank"><img class="statcounter"
+                  src="http://c.statcounter.com/9035219/0/4db3485e/1/"
+                  alt="web counter"></a></div>
+            </noscript>
+              <!-- End of StatCounter Code for Default Guide -->
+
+      </div>
+    </div>
+  </body>
+</html>
