@@ -73,7 +73,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   }
 }
 
-@media only screen and (max-width : 2000px) and (min-width : 1290px) {
+@media only screen and (min-width : 1290px) {
   /* Large desktop: 5 tiles */
   .box {
     width: 15%;
