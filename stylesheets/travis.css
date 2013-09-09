@@ -76,7 +76,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 @media only screen and (min-width : 1290px) {
   /* Large desktop: 5 tiles */
   .box {
-    width: 15%;
-    padding-bottom: 15%;
+    width: 20%;
+    padding-bottom: 20%;
   }
 }
