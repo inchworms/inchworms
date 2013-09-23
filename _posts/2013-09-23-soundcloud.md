@@ -7,18 +7,18 @@ author: inchworms
 twitter: inchworms_
 ---
 
-It's just three more days until we fly to Kiev to attend [Rubyshift](http://rubyshift.org/), where we'll be giving a short presentation about our summer of code. So today we visited [soundclound](https://soundcloud.com/) to get some advice on how to give a good presentation. In our case needed and very welcome.
+It's just three more days until we fly to Kiev to attend [Rubyshift](http://rubyshift.org/) where we'll be giving a short presentation about our summer of code. To help us prepare we visited [soundcloud](https://soundcloud.com/) for some advice on how to give a good presentation.
 
-(Juliane Peterson)(https://twitter.com/JulianePeterson) from Soundcloud has been helping out all the Berlin-based RGSoC students with their presentations. She's  an expert in the science of public speaking (as well as being a linguist and teacher). Amongst the many, many excellent pointers she had, the ones we liked the most were her tips on posture and how to stand: 
+[Juliane Peterson](https://twitter.com/JulianePeterson) from Soundcloud has been helping out all the Berlin-based RGSoC students with their presentations. She's  an expert in the science of public speaking (as well as being a linguist and teacher). Amongst the many, many excellent pointers she had, the ones we really liked were about posture and how to stand: 
 
   - your feet should be soulder distance apart
   - bend the knees a little bit
   - relax your shoulders
   - lean the whole body forward
 
-Lean forward? Yes. Because the audience is your enemy! If you lean forward it sends a psychological signal to the audience that you aren't scared, and won't be running away. It projects confidence and presence, which will cpature the audience's attention.
+Lean forward? Yes. Because the audience is your enemy! If you lean forward it sends a psychological signal to the audience that you aren't scared, and won't be running away. It projects confidence and presence, which will capture their attention.
 
-Other tips for keeping your audience captivated are:
+Other tips for keeping the audience captivated are:
 
   - talk in short sentences
   - repetition, repetition, repetition
