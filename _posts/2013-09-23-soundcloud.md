@@ -1,5 +1,5 @@
 ---
-title: Visiting Soundcloud
+title: The audience is your enemy!
 layout: post
 created_at: Mon Sep 23 2013 17:15
 permalink: /blog/2013-09-23-soundcloud
