@@ -7,9 +7,9 @@ author: inchworms
 twitter: inchworms_
 ---
 
-It's just three more days until we fly to Kiev to attend [Rubyshift](http://rubyshift.org/) where we'll be giving a short presentation about our summer of code. To help us prepare we visited [Soundcloud](https://soundcloud.com/) for some advice on how to give a good presentation.
+It's just three more days until we fly to Kiev to attend [Rubyshift](http://rubyshift.org/) where we'll be giving a short presentation about our summer of code. To help us prepare we visited [Juliane Peterson](https://twitter.com/JulianePeterson) for some advice on how to give a good presentation.
 
-[Juliane Peterson](https://twitter.com/JulianePeterson) from Soundcloud has been helping out all the Berlin-based RGSoC students with their presentations. She's  an expert in the science of public speaking (as well as being a linguist and teacher). Amongst the many, many excellent pointers she had the ones we really liked were about posture and how to stand: 
+ Julieane has been helping out all the Berlin-based RGSoC students with their presentations. She's  an expert in the science of public speaking (as well as being a linguist and teacher). Amongst the many, many excellent pointers she had the ones we really liked were about posture and how to stand: 
 
   - your feet should be shoulder distance apart
   - bend the knees a little bit
