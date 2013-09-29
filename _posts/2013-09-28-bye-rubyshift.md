@@ -7,7 +7,7 @@ author: inchworms
 twitter: inchworms_
 ---
 
-Rubyshift is over. Way too soon. We have enjoy doing nothing but sitting and listening to speakers. Or, in Carla's case, reading her novel. We would be happy to do this forever...
+Rubyshift is over. Way too soon. We have enjoyed doing nothing but sitting and listening to speakers. Or, in Carla's case, reading her novel. We would be happy to do this forever...
 
 ![Carla on a beanbag](/images/sitzsack.jpg)
 
