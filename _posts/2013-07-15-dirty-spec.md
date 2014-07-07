@@ -2,7 +2,7 @@
 title: Getting Our Hands Dirty with Tests
 layout: post
 created_at: Mon Jul 15 2013 17:49
-permalink: /blog/2013-07-15-dirty-tests
+permalink: /2013-07-15-dirty-tests
 author: inchworms
 twitter: inchworms_
 

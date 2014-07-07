@@ -2,7 +2,7 @@
 title: Muddleheadedness
 layout: post
 created_at: Wed Aug 14 2013 16:00
-permalink: /blog/2013-08-14-Muddleheadedness
+permalink: /2013-08-14-Muddleheadedness
 author: inchworms
 twitter: inchworms_
 ---

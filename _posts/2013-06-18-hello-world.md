@@ -2,7 +2,7 @@
 title: Hello, Summer of Code!
 layout: post
 created_at: Tue Jun 18 2013 13:45
-permalink: /blog/2013-06-18-hello-world
+permalink: /2013-06-18-hello-world
 author: inchworms
 twitter: inchworms_
 ---

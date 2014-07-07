@@ -2,7 +2,7 @@
 title: Screencasting
 layout: post
 created_at: Tue Jul 09 2013 20:20
-permalink: /blog/2013-07-09-screencasting
+permalink: /2013-07-09-screencasting
 author: inchworms
 twitter: inchworms_
 

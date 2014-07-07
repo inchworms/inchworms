@@ -2,7 +2,7 @@
 title: Monday Learnings
 layout: post
 created_at: Mon Aug 05 2013 16:00
-permalink: /blog/2013-08-05-monday-learnings
+permalink: /2013-08-05-monday-learnings
 author: inchworms
 twitter: inchworms_
 ---

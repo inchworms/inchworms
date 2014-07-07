@@ -2,7 +2,7 @@
 title: Random Color Data Magic
 layout: post
 created_at: Mon Aug 12 2013 17:14
-permalink: /blog/2013-08-12-random-color-data-magic
+permalink: /2013-08-12-random-color-data-magic
 author: inchworms
 twitter: inchworms_
 ---

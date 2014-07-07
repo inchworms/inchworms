@@ -2,7 +2,7 @@
 title: Sequel Models
 layout: post
 created_at: Wed Sep 04 2013 17:11
-permalink: /blog/2013-09-04-sequel-models
+permalink: /2013-09-04-sequel-models
 author: inchworms
 twitter: inchworms_
 ---

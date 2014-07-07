@@ -2,7 +2,7 @@
 title: Hitzewelle!
 layout: post
 created_at: Mon Jul 22 2013 17:17
-permalink: /blog/2013-07-22-hitzewelle	 
+permalink: /2013-07-22-hitzewelle	 
 author: inchworms
 twitter: inchworms_
 

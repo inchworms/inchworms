@@ -2,7 +2,7 @@
 title: Hardware Hack
 layout: post
 created_at: Tue Sep 17 2013 17:17
-permalink: /blog/2013-09-17-hardware-hack
+permalink: /2013-09-17-hardware-hack
 author: inchworms
 twitter: inchworms_
 ---

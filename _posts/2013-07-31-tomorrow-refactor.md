@@ -2,7 +2,7 @@
 title: Drink and Be Merry for Tomorrow We Refactor
 layout: post
 created_at: Wed Jul 31 2013 16:12
-permalink: /blog/2013-07-31-tomorrow-refactor
+permalink: /2013-07-31-tomorrow-refactor
 author: inchworms
 twitter: inchworms_
 

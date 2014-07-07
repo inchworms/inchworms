@@ -2,7 +2,7 @@
 title: Brain Strain
 layout: post
 created_at: Thu Jul 25 2013 21:50
-permalink: /blog/2013-07-25-brain-strain
+permalink: /2013-07-25-brain-strain
 author: inchworms
 twitter: inchworms_
 

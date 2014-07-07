@@ -2,7 +2,7 @@
 title: Screencasting Part 2
 layout: post
 created_at: Wed Jul 10 2013 18:49
-permalink: /blog/2013-07-10-screencasting-2
+permalink: /2013-07-10-screencasting-2
 author: inchworms
 twitter: inchworms_
 

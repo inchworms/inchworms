@@ -2,7 +2,7 @@
 title: These Boots Were Made for Walkin'
 layout: post
 created_at: Mon Jul 01 2013 19:00
-permalink: /blog/2013-07-01-these-boots
+permalink: /2013-07-01-these-boots
 author: inchworms
 twitter: inchworms_
 ---

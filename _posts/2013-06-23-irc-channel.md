@@ -2,7 +2,7 @@
 title: IRCing
 layout: post
 created_at: Sun Jun 23 2013 14:30
-permalink: /blog/2013-06-23-irc-channel
+permalink: /2013-06-23-irc-channel
 author: inchworms
 twitter: inchworms_
 ---

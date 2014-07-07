@@ -2,7 +2,7 @@
 title: Scatter Plots
 layout: post
 created_at: Fri Aug 09 2013 16:00
-permalink: /blog/2013-08-09-scatterplot
+permalink: /2013-08-09-scatterplot
 author: inchworms
 twitter: inchworms_
 ---

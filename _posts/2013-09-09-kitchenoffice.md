@@ -2,7 +2,7 @@
 title: Kitchen Office
 layout: post
 created_at: Mon Sep 09 2013 15:40
-permalink: /blog/2013-09-09-kitchenoffice
+permalink: /2013-09-09-kitchenoffice
 author: inchworms
 twitter: inchworms_
 ---

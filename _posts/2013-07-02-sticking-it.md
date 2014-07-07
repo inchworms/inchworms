@@ -2,7 +2,7 @@
 title: Sticking Things to the Wall
 layout: post
 created_at: Tue Jul 02 2013 18:50
-permalink: /blog/2013-07-01-sticking-it
+permalink: /2013-07-01-sticking-it
 author: inchworms
 twitter: inchworms_
 

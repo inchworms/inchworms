@@ -2,7 +2,7 @@
 title: monday mornings
 layout: post
 created_at: Mon Sep 16 2013 12:00
-permalink: /blog/2013-09-16-monday-mornings
+permalink: /2013-09-16-monday-mornings
 author: inchworms
 twitter: inchworms_
 ---

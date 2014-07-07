@@ -2,7 +2,7 @@
 title: Sorting and Filing
 layout: post
 created_at: Wed Jul 24 2013 17:10
-permalink: /blog/2013-07-23-sorting-filing
+permalink: /2013-07-23-sorting-filing
 author: inchworms
 twitter: inchworms_
 

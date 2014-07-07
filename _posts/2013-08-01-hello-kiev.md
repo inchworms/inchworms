@@ -2,7 +2,7 @@
 title: Hello, Kiev!
 layout: post
 created_at: Thu Aug 01 2013 17:48
-permalink: /blog/2013-08-01-hello-kiev
+permalink: /2013-08-01-hello-kiev
 author: inchworms
 twitter: inchworms_
 ---

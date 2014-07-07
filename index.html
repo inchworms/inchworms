@@ -1,10 +1,54 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  	<meta http-equiv="refresh" content="0; url=https://inchworms.github.io/inchworms/blog" />
+---
+layout: default
+title: inchworms Summer of Code blog
+---
 
-/*<script language="javascript">
-  window.location = "https://inchworms.github.io/inchworms/blog";
-</script>*/
 
- </head>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="meta">
+      {% if post.twitter %}
+          <a href='http://twitter.com/{{ post.twitter }}'>{{ post.author }}</a> - 
+        {% else %}
+          {{ post.author }} -
+        {% endif %}
+    <span class="date">{{ post.created_at | date: "%a %-d %B, %Y, %H:%M" }}</span>
+    <span style="float:right" ><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ post.title }}" data-via="inchworms_" data-hashtags="rgsoc" data-count="none">Tweet</a></span>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </p>
+  <div class="content">
+    {{ post.content }}
+    <img src="/../images/hr.png" style="50% 0 no-repeat">
+  </div>
+    <p></p>
+{% endfor %}
+
+
+<!-- Pagination litransparent url('/../images/hr.png') 0 0 no-repeatnks -->
+<div class="pagination">
+  {% if paginator.total_pages > 1 %}
+    <br>
+    {% if paginator.previous_page %}
+
+      {% if paginator.previous_page == 1 %}
+          <a href="/blog" class="previous " style="padding-left:5px">Recent Posts</a>
+        {% else %}
+          <a href="/blog/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Recent Posts</a>
+        {% endif %}
+    {% else %}
+      <span class="previous" style="padding-left:5px">Recent Posts</span>
+    {% endif %}
+    
+    <span class="page_number " style="padding-left:25%; font-weight:normal; font-size:12px;">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+     
+    {% if paginator.next_page %}
+      <a href="/blog/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Earlier Posts</a>
+    {% else %}
+      <span class="next " style="float:right; padding-right:30px;">Earlier Posts</span>
+    {% endif %}
+  {% else %}
+  {% endif %}
+</div>

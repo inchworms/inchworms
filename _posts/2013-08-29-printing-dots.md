@@ -2,7 +2,7 @@
 title: We're Just Printing Dots Today
 layout: post
 created_at: Thu Aug 29 2013 15:00
-permalink: /blog/2013-08-29-printing-dots
+permalink: /2013-08-29-printing-dots
 author: inchworms
 twitter: inchworms_
 ---

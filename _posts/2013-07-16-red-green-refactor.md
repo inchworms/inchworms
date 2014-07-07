@@ -2,7 +2,7 @@
 title: Red Green Refactor
 layout: post
 created_at: Tue Jul 16 2013 17:24
-permalink: /blog/2013-07-15-red-green-refactor
+permalink: /2013-07-15-red-green-refactor
 author: inchworms
 twitter: inchworms_
 

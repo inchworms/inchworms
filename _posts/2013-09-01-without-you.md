@@ -2,7 +2,7 @@
 title: Can We Live Without You?
 layout: post
 created_at: Mon Sep 01 2013 17:50
-permalink: /blog/2013-09-01-without-you
+permalink: /2013-09-01-without-you
 author: inchworms
 twitter: inchworms_
 ---

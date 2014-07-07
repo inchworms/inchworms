@@ -2,7 +2,7 @@
 title: Berlin map
 layout: post
 created_at: Thu Aug 22 2013 17:00
-permalink: /blog/2013-08-22-berlin-map
+permalink: /2013-08-22-berlin-map
 author: inchworms
 twitter: inchworms_
 ---

@@ -2,7 +2,7 @@
 title: Bar Chart Art
 layout: post
 created_at: Thu Aug 08 2013 16:26
-permalink: /blog/2013-08-06-bar-chart-art
+permalink: /2013-08-06-bar-chart-art
 author: inchworms
 twitter: inchworms_
 ---

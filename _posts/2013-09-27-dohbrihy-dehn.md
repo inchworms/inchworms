@@ -2,7 +2,7 @@
 title: Dohbrihy Dehn
 layout: post
 created_at: Fri Sep 27 2013 21:30
-permalink: /blog/2013-09-27-dohbrihy-dehn
+permalink: /2013-09-27-dohbrihy-dehn
 author: inchworms
 twitter: inchworms_
 ---

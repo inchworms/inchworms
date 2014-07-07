@@ -2,7 +2,7 @@
 title: Busy Monday
 layout: post
 created_at: Mon Aug 26 2013 16:09
-permalink: /blog/2013-08-26-busy-monday
+permalink: /2013-08-26-busy-monday
 author: inchworms
 twitter: inchworms_
 ---

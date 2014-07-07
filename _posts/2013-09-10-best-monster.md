@@ -2,7 +2,7 @@
 title: The Best Monster in the World
 layout: post
 created_at: Tue Sep 10 2013 18:18
-permalink: /blog/2013-09-10-best-monster
+permalink: /2013-09-10-best-monster
 author: inchworms
 twitter: inchworms_
 ---

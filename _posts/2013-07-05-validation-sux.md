@@ -2,7 +2,7 @@
 title: Validation Sux
 layout: post
 created_at: Fri Jul 05 2013 17:06
-permalink: /blog/2013-07-05-validation-suxxxxxx
+permalink: /2013-07-05-validation-suxxxxxx
 author: inchworms
 twitter: inchworms_
 

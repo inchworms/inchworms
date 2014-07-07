@@ -2,7 +2,7 @@
 title: This is Not My First Merge Conflict
 layout: post
 created_at: Fri Aug 02 2013 16:15
-permalink: /blog/2013-08-01-merge-urge
+permalink: /2013-08-01-merge-urge
 author: inchworms
 twitter: inchworms_
 ---

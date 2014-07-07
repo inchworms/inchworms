@@ -2,7 +2,7 @@
 title: Bye RubyShift Hello Kiew
 layout: post
 created_at: Sat Sep 28 2013 21:30
-permalink: /blog/2013-09-28-bye-rubyshift
+permalink: /2013-09-28-bye-rubyshift
 author: inchworms
 twitter: inchworms_
 ---

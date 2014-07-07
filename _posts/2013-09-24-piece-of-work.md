@@ -2,7 +2,7 @@
 title: A Fine Piece of Work
 layout: post
 created_at: Tue Sep 24 2013 14:47
-permalink: /blog/2013-09-24-piece-of-work
+permalink: /2013-09-24-piece-of-work
 author: inchworms
 twitter: inchworms_
 ---
