@@ -17,9 +17,9 @@ With a screen that looked like this most of the day no wonder our brains were hu
 
 <iframe src="http://loopc.am/tyranja/loops/15.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
 
-Anja eventually worked out a solution to one of our problemos, earning herself a special Grumpy Carla forehead sticker. ([Grumpy Carla © Bioshrimp 2013](http://inchworms.net/images/grumpycarla.jpg))
+Anja eventually worked out a solution to one of our problemos, earning herself a special Grumpy Carla forehead sticker. ([Grumpy Carla © Bioshrimp 2013](http://inchworms.net/inchworms/images/grumpycarla.jpg))
 
-<img src="/images/anja_sticker.jpg" alt="anja_sticker" style="width: 300px;"/>
+<img src="/inchworms/images/anja_sticker.jpg" alt="anja_sticker" style="width: 300px;"/>
 
 And a BIG thanks to our amazing coach [Matt](https://twitter.com/fidothe). He's not only a champ with Sinatra, he also knows his way around d3. We are impressed!
 

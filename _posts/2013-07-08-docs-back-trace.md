@@ -43,6 +43,6 @@ We switched to preparing for the screencasts we plan to record for our https://g
 
 We wrote rough scripts for Parts 1 & 2, and created branches in github where people will be able to download relevant files: [Part 1](https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-1) and [Part 2](https://github.com/inchworms/songs_by_nancy/tree/Tutorial-Part-2)
 
-![script](/images/script.jpg)
+![script](/inchworms/images/script.jpg)
 
 Tomorrow we'll start recording screencasts for these...

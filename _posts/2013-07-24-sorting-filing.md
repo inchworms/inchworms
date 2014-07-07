@@ -12,7 +12,7 @@ Our routing_spec.rb document was getting rather long and confusing. Scrolling up
 
 So we broke the file up into a bunch of separate files based on contexts. Now our directory structure looks something like this:
 
-![spec directory structure](/images/directoryStructure.png)
+![spec directory structure](/inchworms/images/directoryStructure.png)
 
 You'll notice a folder called 'unchecked'. This hold the files we've already written tests for but need to check (Matt discovered this morning that some of our test, whist passing, are not actually testing for what they should be).
 
@@ -20,14 +20,14 @@ You'll also notice some other folders for other types of requests, like put, pos
 
 We also learnt that if you list tests without implementing them,  like this...
 
-![test list](/images/testlist.png)
+![test list](/inchworms/images/testlist.png)
 
 ... when you run the test, the output will look like this:
 
-![pending](/images/pending.png)
+![pending](/inchworms/images/pending.png)
 
 That is, the unwritten tests will be listed as "PENDING: Not yet implemented." Neat, huh!
 
 Meanwhile, our commits for the day (as of 5pm) look like this:
 
-![Commits July 24](/images/comitsJuly24.png)
+![Commits July 24](/inchworms/images/comitsJuly24.png)

@@ -29,7 +29,7 @@ We spent the morning looking through our completed Sinatra tests and editing the
 
 She was happy - especially as she remembered what a 'capture' in a regular expression was. (Matt explained it last week. It's about identifying what the important part to identify is, which you indicate by surrounding with brackets).
 
-![15 % more fun sticker](/images/15percentmorefun.jpg)
+![15 % more fun sticker](/inchworms/images/15percentmorefun.jpg)
 
 Work continued into the afternoon.
 

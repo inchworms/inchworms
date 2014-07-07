@@ -10,5 +10,5 @@ twitter: inchworms_
 
 This pretty much sums up today:
 
-![brain strain](/images/brainstrain.gif)
+![brain strain](/inchworms/images/brainstrain.gif)
 

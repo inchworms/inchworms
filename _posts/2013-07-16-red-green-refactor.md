@@ -43,11 +43,11 @@ Then we started working on [Part 2](https://peepcode.com/products/rspec-ii) of t
 
 Oh yeah, we had a yummy lunch at [Co.Up](http:co-up.de) with Matt and Urs (and Nabil, Andy, and Hannah)...
 
-<img src ="/images/salad.jpg" alt="salad" width="400">
+<img src ="/inchworms/images/salad.jpg" alt="salad" width="400">
 
 ...and [@bumbledeebee](https://twitter.com/bumbledebee) left us a gift!
 
-<img src ="/images/bubbles.jpg" alt="bubbles" width="400">
+<img src ="/inchworms/images/bubbles.jpg" alt="bubbles" width="400">
 
 
 

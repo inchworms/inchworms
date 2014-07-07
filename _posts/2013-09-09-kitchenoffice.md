@@ -9,7 +9,7 @@ twitter: inchworms_
 
 Today we had to do a lot of things: plan what we would work on in the last few weeks of RGSoC, start thinking about our presentation at RubyShift later in the month, bake a special cake for Travis (more on that tomorrow), and add a new table to our database. All in Anja's kitchen.
 
-![kitchenoffice](/images/kitchenoffice.jpg)
+![kitchenoffice](/inchworms/images/kitchenoffice.jpg)
 
 We wrote a new migration:
 
@@ -76,9 +76,9 @@ and ruby code to populate it:
 
 We also discussed the recent election in Australia, and its [political system](http://en.wikipedia.org/wiki/Parliament_of_Australia) vs the [German system](http://en.wikipedia.org/wiki/Politics_of_Germany). The German one seems to be slightly more difficult.
 
-![australia_government](/images/government.jpg)
+![australia_government](/inchworms/images/government.jpg)
 
 Anyway the winner of the election in Australia is:
 
-![abbott](/images/abbottbeach.jpg)
+![abbott](/inchworms/images/abbottbeach.jpg)
 

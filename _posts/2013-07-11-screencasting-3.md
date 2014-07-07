@@ -12,4 +12,4 @@ twitter: inchworms_
 
 [@bioshrimp](https://twitter.com/bioshrimp) did a drawing of grumpy Carla. Which we love.
 
-![grumpy carla](/images/grumpycarla.jpg)
+![grumpy carla](/inchworms/images/grumpycarla.jpg)

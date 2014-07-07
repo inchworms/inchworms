@@ -20,7 +20,7 @@ Meanwhile, while we started to refactor our Sinatra tests, we decided to update 
 
 We'll try again tomorrow. And prepare for more refactoring by contemplating this familiar scenario:
 <p></p>
-![test](/images/test.jpeg)
+![test](/inchworms/images/test.jpeg)
 
 
 

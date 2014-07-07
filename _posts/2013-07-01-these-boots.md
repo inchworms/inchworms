@@ -15,11 +15,11 @@ We were then set the task of building a simple Sinatra app. We used a tutorial f
 
 We also had to make a diagram of the basic way a Sinatra app handles a request. We came up with this, a messy representation of how an app talks to a client:
 
-![rack Diagram](/images/rackDiagram.jpg)
+![rack Diagram](/inchworms/images/rackDiagram.jpg)
 
 On the http level this is what Sinatra is doing:
 
-![http Diagram](/images/httpdiagram.jpg)
+![http Diagram](/inchworms/images/httpdiagram.jpg)
 
 more or less...
 

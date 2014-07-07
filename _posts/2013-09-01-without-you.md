@@ -13,8 +13,8 @@ Today we moved from the 5th floor offices of [TravisCI](https://twitter.com/trav
 
 But, as they say, when one door closes, another one opens. Pretty soon our new desk was set up, our coach Urs had assigned us several challenging tasks, and, along with Urs' colleague Adam, shared a delicious salad for lunch.
 
-![before](/images/before.jpg)
-![after](/images/after.jpg)
+![before](/inchworms/images/before.jpg)
+![after](/inchworms/images/after.jpg)
 
 Mostly today was spent working on setting up a rake task that would create a seperate database we will use to test the performance of our data viz appliaction. Because we wanted our rake task to: look for a performance test database, delete it if there was one, then/or create a new performance test database - we had to work out how we could access (unix) system commands and which ones would return something we could use to check the presence of the performance test db. This took AGES.
 

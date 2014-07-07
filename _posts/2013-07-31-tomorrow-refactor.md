@@ -14,7 +14,7 @@ So far we've mainly just rewritten the existing Unit tests, turning them into RS
 
 We've known all along that we would need to refactor our work. And not just because of messages like these:
 
-![refactor](/images/refactor.png)
+![refactor](/inchworms/images/refactor.png)
 
 So today we're celebrating the fact that we're at the end of the GET list.
 

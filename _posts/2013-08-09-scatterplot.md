@@ -15,7 +15,7 @@ We used the learning-by-repetition style to drum the key D3 domain-range concept
 <p></p>
 The next step in visualisation style were scatter plots. Once again, Anja took a simple scatter plot and fed it steroids:
 <p></p>
-![scatterplot](/images/scatterplot.png)
+![scatterplot](/inchworms/images/scatterplot.png)
 <p></p>
 All we need now is useful data. Give us data! We want to make [a scatter plot with meaning](http://www.nytimes.com/interactive/2012/05/17/business/dealbook/how-the-facebook-offering-compares.html), and not just pretty [colours](https://kuler.adobe.com/Theme-2-color-theme-2785170/edit/?copy=true):)...
 

@@ -11,7 +11,7 @@ We needed a locker at [Co-Up](https://twitter.com/co_up) co-working space. Alex 
 
 Then, as if planets were mysteriously aligning, coach [Matt](https://twitter.com/fidothe) turned up and mentioned that he had a junior hacksaw at home. We cycled to his home, fetched the hacksaw, and wasted no time in using it: 
 
-<img src="/images/mattandanjalocker.jpg" alt="matt and anja" style="width: 300px;"/>
+<img src="/inchworms/images/mattandanjalocker.jpg" alt="matt and anja" style="width: 300px;"/>
 
 Three minutes later, the door to the locker was open. Our first hardware hack!
 
@@ -28,7 +28,7 @@ She asked about our day and we proudly told her we'd performed our very first ha
 
 Yes. It was Christina's locker. Sure, she hadn't used it in a while, but no(!) she had not lost the key. 
 
-<img src="/images/cristina.jpg" alt="cristina" style="width: 300px;"/>
+<img src="/inchworms/images/cristina.jpg" alt="cristina" style="width: 300px;"/>
 
 We immediately apologised, and, lucky for us, Cristina was totally cool. "It's fine," she said, "seriously. No Problem."
 

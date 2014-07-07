@@ -3,7 +3,7 @@ permalink: /:title
 
 name: inchworms
 description: Summer of Coding, one inch at a time...
-baseurl: 
+baseurl: /inchworms/
 
 paginate: 5
 paginate_path: "page:num"

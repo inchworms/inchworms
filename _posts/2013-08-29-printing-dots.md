@@ -9,6 +9,6 @@ twitter: inchworms_
 
 With Matt's help we refactored our csv parsing to make it run quicker. We included something Matt likes to do, which is printing a dot every 100 rows. As a consequence, when we ran the file, our screens slowly filled with dots. Actually our screens filled wayyyyyyyyyy more slowly than Matt's. What took us 3,000 seconds took Matt a mere 175 seconds. We put this down to his SSD. We want an upgrade!
 
-![dots](/images/dots.png)
+![dots](/inchworms/images/dots.png)
 
 Now we have all the Czech Republic payment data saved into our database. Hurá!!!

@@ -9,12 +9,12 @@ twitter: inchworms_
 
 There are more than just a programming issue when you want to draw a map with d3. It took literally half a day to find a working Berlin map. 
 
-<img src="/images/not_working_json.png" alt="berlin" style="width: 600px;"/>
+<img src="/inchworms/images/not_working_json.png" alt="berlin" style="width: 600px;"/>
 **Not working json**
 <p></p>
 Then I came across that [github account](https://github.com/m-hoerz/berlin-shapes) with a perfectly working map with the districs already in geojson format. Just what I was looking for.
 
-<img src="/images/working_json.png" alt="berlin" style="width: 600px;"/>
+<img src="/inchworms/images/working_json.png" alt="berlin" style="width: 600px;"/>
 **working json**
 
 Isn't it gorgeous? And look at the colors!

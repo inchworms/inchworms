@@ -10,7 +10,7 @@ twitter: inchworms_
 
 Berlin. 30 degrees in the shade. Everywhere we look Germans are melting. But not our mentor Stefan, the [Bjorn Borg](http://news.bbc.co.uk/sportacademy/hi/sa/tennis/features/newsid_3253000/3253694.stm) of Open Data.
 
-![Stefan Wehrmeyer](/images/stefan.jpg)
+![Stefan Wehrmeyer](/inchworms/images/stefan.jpg)
 
 We met with [Stefan](http://stefanwehrmeyer.com/) in the morning to discuss the EU FarmSubsidy project we'll work on in the later part of our Summer of Code. We covered a lot of ground, discussing possible libraries to use, different software that might be helpful, alternate visual approaches, and formulated a rough plan for how we should initially proceed. (Carla was also happy to find data about her uncle's small farm in Sicily).
 
@@ -25,7 +25,7 @@ We needed more fun because while it may have been the heat, the long list of Sin
 
 We found something Matt called a [rabbit hole](http://youtu.be/3ppsDNkBLGY?t=1m1s) (to do with disabling Rack protection) and had test results totally splatter our screens with red, as if an RSpec chainsaw had been unleashed.
 
-![splatter](/images/splatter.png)
+![splatter](/inchworms/images/splatter.png)
 
 Our work continues...
 

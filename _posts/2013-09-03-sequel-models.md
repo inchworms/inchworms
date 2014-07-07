@@ -15,5 +15,5 @@ We also worked out how to see what columns an object contained, and how to add a
 
 Tomorrow we're both installing SSDs into our laptops. This *may* mean our computers will be out-of-action at the end of the day, so we may not be able to post here tomorrow...
 
-![ssd](/images/ssd.jpg)
+![ssd](/inchworms/images/ssd.jpg)
 
