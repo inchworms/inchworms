@@ -2,7 +2,7 @@
 title: Sight! seeing
 layout: post
 created_at: Sun Sep 29 2013 21:30
-permalink: /2013-09-29-Sightseeing.html
+permalink: /2013-09-29-Sightseeing
 author: inchworms
 twitter: inchworms_
 ---

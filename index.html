@@ -33,9 +33,9 @@ title: inchworms Summer of Code blog
     {% if paginator.previous_page %}
 
       {% if paginator.previous_page == 1 %}
-          <a href="/blog" class="previous " style="padding-left:5px">Recent Posts</a>
+          <a href="/inchworms" class="previous " style="padding-left:5px">Recent Posts</a>
         {% else %}
-          <a href="/blog/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Recent Posts</a>
+          <a href="/inchworms/page{{ paginator.previous_page }}" class="previous " style="padding-left:5px">Recent Posts</a>
         {% endif %}
     {% else %}
       <span class="previous" style="padding-left:5px">Recent Posts</span>
@@ -45,7 +45,7 @@ title: inchworms Summer of Code blog
 
      
     {% if paginator.next_page %}
-      <a href="/blog/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Earlier Posts</a>
+      <a href="/inchworms/page{{ paginator.next_page }}" class="next " style="float:right; padding-right:30px;">Earlier Posts</a>
     {% else %}
       <span class="next " style="float:right; padding-right:30px;">Earlier Posts</span>
     {% endif %}
