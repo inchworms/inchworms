@@ -9,8 +9,6 @@ twitter: inchworms_
 
 Today was a busy day at the Travis CI office. Not only did Sebastian and Gareth make an appearence (they've been out of town over summer), but [Julia](https://twitter.com/juliaguar) and [Carolina](https://twitter.com/carolina) (aka RGSoC [Team D*](http://teamd.postach.io/)) came to work in the office.
 
-<iframe src="http://loopc.am/CarlaD/loops/team-d-rgsoc.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-
 We spent the morning looking through our completed Sinatra tests and editing the names of any test descriptions that weren't very clear. In some cases this required reminding ourselves of what the test actually did. Carla earn't herself a 15% More Fun forehead sticker by exploring what **params[:agent]** returned in the test below (it 'captures' the relevant part of the User-Agent header, which in this case is 'World').
 
 	context 'makes captures in user agent pattern available in params[:agent]' do
