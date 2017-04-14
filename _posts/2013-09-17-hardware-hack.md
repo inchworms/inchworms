@@ -15,8 +15,6 @@ Then, as if planets were mysteriously aligning, coach [Matt](https://twitter.com
 
 Three minutes later, the door to the locker was open. Our first hardware hack!
 
-<iframe src="http://loopc.am/tyranja/loops/32.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-
 
 Later that day we were having lunch together at a local restaurant. By chance we ended up sharing a table with [Cristina](https://twitter.com/crissantamarina). Cristina is an organiser of Rails Girls and helps coworking managers use Co-Up's coworking tool, [@cobot_me](https://twitter.com/cobot_me). It was the first time we had met her. 
 

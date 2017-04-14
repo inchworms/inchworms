@@ -20,6 +20,3 @@ The next step in visualisation style were scatter plots. Once again, Anja took a
 All we need now is useful data. Give us data! We want to make [a scatter plot with meaning](http://www.nytimes.com/interactive/2012/05/17/business/dealbook/how-the-facebook-offering-compares.html), and not just pretty [colours](https://kuler.adobe.com/Theme-2-color-theme-2785170/edit/?copy=true):)...
 
 Wishing you all a happy weekend!
-
-<iframe src="http://loopc.am/tyranja/loops/11.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-

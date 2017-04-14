@@ -11,11 +11,7 @@ Carla: "Do you know what’s really hard?"</br>
 Anja: "No."</br>
 Carla: "What's really hard is how hard it is to keep thinking so hard all the time."</br>
 
-<iframe src="http://loopc.am/bioshrimp/loops/headdesking-hard.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-
 With a screen that looked like this most of the day no wonder our brains were hurting.
-
-<iframe src="http://loopc.am/tyranja/loops/15.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
 
 Anja eventually worked out a solution to one of our problemos, earning herself a special Grumpy Carla forehead sticker. ([Grumpy Carla © Bioshrimp 2013](http://inchworms.net/inchworms/images/grumpycarla.jpg))
 
