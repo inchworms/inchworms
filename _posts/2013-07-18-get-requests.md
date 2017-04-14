@@ -25,8 +25,6 @@ Why were we doing this? Because yesterday we started writing tests for Sinatra, 
 
 Actually Konstantin hand drew some requests/responses for us yesterday.
 
-<iframe src="http://loopc.am/CarlaD/loops/24.widget" width="340" height="390" scrolling="no" frameborder="no" allowTransparency="true"></iframe>
-
 We also did a bit of reading at lunch from [Sinatra: Up and Running](http://shop.oreilly.com/product/0636920019664.do). It has a nice little [example app](https://github.com/inchworms/rock_paper_scissors) in Chapter 1 that lets you play Rock Paper Scissors with your computer. It's super simple, but very instructive!
 <p></p>
 
