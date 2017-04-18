@@ -8,4 +8,4 @@ baseurl: /inchworms/
 paginate: 5
 paginate_path: "page:num"
 
-markdown: redcarpet
+markdown: kramdown
